@@ -3,8 +3,8 @@
     {
       "select_main_ads": "ADMOB",
       "select_backup_ads":"UNITY",
-      "main_ads_banner": "ca-app-pub-8419497977073403/3471768152",
-      "main_ads_intertitial":"ca-app-pub-8419497977073403/3245888511",
+      "main_ads_banner": "ca-app-pub-7906256935637033/1071306842",
+      "main_ads_intertitial":"ca-app-pub-7906256935637033/7445143501",
       "backup_ads_banner":"Banner_Android",
       "backup_ads_intertitial":"Interstitial_Android",
       "interval_intertitial": 3,

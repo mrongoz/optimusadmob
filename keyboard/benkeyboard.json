@@ -2,7 +2,7 @@
    "Ads": [
     {
       "select_main_ads": "UNITY",
-      "select_backup_ads":"APPLOVIN-D",
+      "select_backup_ads":"APPLOVIN-M",
       "main_ads_banner": "Banner_Android",
       "main_ads_intertitial":"Interstitial_Android",
       "backup_ads_banner":"abb942ce32e9de45",

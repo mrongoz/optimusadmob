@@ -1,0 +1,24 @@
+{
+   "Ads": [
+    {
+      "select_main_ads": "UNITY",
+      "select_backup_ads":"APPLOVIN-M",
+      "main_ads_banner": "Banner_Android",
+      "main_ads_intertitial":"Interstitial_Android",
+      "backup_ads_banner":"abb942ce32e9de45",
+      "backup_ads_intertitial":"6c6ff521c254159d",
+      "interval_intertitial": 3,
+      "initialize_sdk":"4670245",
+      "initialize_sdk_backup_ads":"4kDKR418Q3-ykyKsTZiVlrqxPUvaLvXMhv3xW8BbTST0ceb-2uQVqulXX39G3VF_iXmT-MQCcs3wqrf_neVPyo",
+      "high_paying_keyword_1": "",
+      "high_paying_keyword_2": "",
+      "high_paying_keyword_3": "",
+      "high_paying_keyword_4": "",
+      "high_paying_keyword_5": "",
+      "status_app": "0",
+      "link_redirect": "https://"
+    }
+  ]
+   
+
+}

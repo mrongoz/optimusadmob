@@ -2,14 +2,14 @@
    "Ads": [
     {
       "select_main_ads": "UNITY",
-      "select_backup_ads":"APPLOVIN-D",
+      "select_backup_ads":"ADMOB",
       "main_ads_banner": "Banner_Android",
       "main_ads_intertitial":"Interstitial_Android",
-      "backup_ads_banner":"db4d5e8718b97d78",
-      "backup_ads_intertitial":"518cd97722c60b52",
+      "backup_ads_banner":"ca-app-pub-7906256935637033/1028842148",
+      "backup_ads_intertitial":"ca-app-pub-7906256935637033/7402678809",
       "interval_intertitial": 5,
       "initialize_sdk":"4393653",
-      "initialize_sdk_backup_ads":"",
+      "initialize_sdk_backup_ads":"ca-app-pub-7906256935637033~9988272713",
       "high_paying_keyword_1": "",
       "high_paying_keyword_2": "",
       "high_paying_keyword_3": "",

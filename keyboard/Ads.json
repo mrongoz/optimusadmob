@@ -7,7 +7,7 @@
       "main_ads_intertitial":"Interstitial_Android",
       "backup_ads_banner":"ca-app-pub-7906256935637033/1028842148",
       "backup_ads_intertitial":"ca-app-pub-7906256935637033/7402678809",
-      "interval_intertitial": 5,
+      "interval_intertitial": 3,
       "initialize_sdk":"4393653",
       "initialize_sdk_backup_ads":"ca-app-pub-7906256935637033~9988272713",
       "high_paying_keyword_1": "",

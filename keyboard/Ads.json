@@ -1,0 +1,56 @@
+{
+   "Ads": [
+    {
+      "select_main_ads": "ADMOB",
+      "select_backup_ads":"APPLOVIN-D",
+      "main_ads_banner": "ca-app-pub-3940256099942544/6300978111",
+      "main_ads_intertitial":"ca-app-pub-3940256099942544/1033173712",
+      "backup_ads_banner":"db4d5e8718b97d78",
+      "backup_ads_intertitial":"518cd97722c60b52",
+      "interval_intertitial": 5,
+      "initialize_sdk":"107355779",
+      "initialize_sdk_backup_ads":"",
+      "high_paying_keyword_1": "",
+      "high_paying_keyword_2": "",
+      "high_paying_keyword_3": "",
+      "high_paying_keyword_4": "",
+      "high_paying_keyword_5": "",
+      "status_app": "0",
+      "link_redirect": "https://"
+    }
+  ],
+   "Theme": [
+    {
+      "url_theme": "https://aliendro.id/uploads/demo/themekeyboard/keyboard_1.jpg"
+    }, 
+     {
+      "url_theme": "https://aliendro.id/uploads/demo/themekeyboard/keyboard_2.jpg"
+    },
+     {
+      "url_theme": "https://aliendro.id/uploads/demo/themekeyboard/keyboard_3.jpg"
+    },
+     {
+      "url_theme": "https://aliendro.id/uploads/demo/themekeyboard/keyboard_4.jpg"
+    },
+     {
+      "url_theme": "https://aliendro.id/uploads/demo/themekeyboard/keyboard_5.jpg"
+    }, 
+    {
+      "url_theme": "https://aliendro.id/uploads/demo/themekeyboard/keyboard_6.jpg"
+    },
+     {
+      "url_theme": "https://aliendro.id/uploads/demo/themekeyboard/keyboard_7.jpg"
+    },
+     {
+      "url_theme": "https://aliendro.id/uploads/demo/themekeyboard/keyboard_8.jpg"
+    },
+     {
+      "url_theme": "https://aliendro.id/uploads/demo/themekeyboard/keyboard_9.jpg"
+    },
+     {
+      "url_theme": "https://aliendro.id/uploads/demo/themekeyboard/keyboard_10.png"
+    }
+  ]
+
+
+}

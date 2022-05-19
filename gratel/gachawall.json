@@ -1,1 +1,22 @@
-
+{
+   "Ads": [
+    {
+      "select_main_ads": "APPLOVIN-D",
+      "select_backup_ads":"UNITY",
+      "main_ads_banner": "f41fa622250b834d",
+      "main_ads_intertitial":"9e59161c221d88db",
+      "backup_ads_banner":"Banner_Android",
+      "backup_ads_intertitial":"Interstitial_Android",
+      "interval_intertitial": 3,
+      "initialize_sdk":"",
+      "initialize_sdk_backup_ads":"4627539",
+      "high_paying_keyword_1": "",
+      "high_paying_keyword_2": "",
+      "high_paying_keyword_3": "",
+      "high_paying_keyword_4": "",
+      "high_paying_keyword_5": "",
+      "status_app": "0",
+      "link_redirect": "https://"
+    }
+  ]
+}

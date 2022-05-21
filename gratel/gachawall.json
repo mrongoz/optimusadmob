@@ -5,7 +5,7 @@
       "select_backup_ads":"UNITY",
       "main_ads_banner": "c1a986a598369ff5",
       "main_ads_intertitial":"a92802e6f9a7e26f",
-      "backup_ads_banner":"Banner_Android",
+      "backup_ads_banner":"Banner",
       "backup_ads_intertitial":"video",
       "interval_intertitial": 3,
       "initialize_sdk":"",

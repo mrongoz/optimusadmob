@@ -62,8 +62,8 @@
     },
     {
       "id": 3,
-      "name_category": "Car",
-      "image": "file:///android_asset/image/car.jpg"
+      "name_category": "Cat",
+      "image": "https://i.pinimg.com/originals/5f/ce/52/5fce523f7d731da9858da39d0bf57023.jpg"
 
     }
   ],
@@ -102,10 +102,238 @@
       "image":"https://3diphonewallpaper.com/wp-content/uploads/2018/03/iPhone-Wallpaper-Cute-Puppies-Pictures.jpg"
     },
     {
-      "id":6,
-      "name_category": "Car",
-      "title":"Super Car",
-      "image":"file:///android_asset/image/car.jpg"
+        "id": "762937993115214921",
+        "name_category": "cat",
+        "title": "cat",
+        "image": "https://i.pinimg.com/originals/5f/ce/52/5fce523f7d731da9858da39d0bf57023.jpg"
+    },
+    {
+        "id": "762937993115214916",
+        "name_category": "cat",
+        "title": "cat",
+        "image": "https://i.pinimg.com/originals/85/3d/ee/853dee3312bfbc045d7f606d696d2552.jpg"
+    },
+    {
+        "id": "762937993115214910",
+        "name_category": "cat",
+        "title": "cat",
+        "image": "https://i.pinimg.com/originals/36/e1/d9/36e1d9b4cadb97f6bbefadab67be72e6.jpg"
+    },
+    {
+        "id": "762937993115214909",
+        "name_category": "cat",
+        "title": "cat",
+        "image": "https://i.pinimg.com/originals/a9/79/77/a97977d3c8d61c207c89f7b8d580a393.jpg"
+    },
+    {
+        "id": "762937993115214905",
+        "name_category": "cat",
+        "title": "cat",
+        "image": "https://i.pinimg.com/originals/9f/72/86/9f72868b0f3ab1bd9b5191a2691f63da.jpg"
+    },
+    {
+        "id": "762937993114923673",
+        "name_category": "cat",
+        "title": "cat",
+        "image": "https://i.pinimg.com/originals/28/ca/4a/28ca4ab2216fcf2f48920b9cdb6a50a6.jpg"
+    },
+    {
+        "id": "762937993114826654",
+        "name_category": "cat",
+        "title": "cat",
+        "image": "https://i.pinimg.com/originals/3d/35/fc/3d35fcda23dcf7a61224bef30076f9c3.jpg"
+    },
+    {
+        "id": "762937993109178693",
+        "name_category": "cat",
+        "title": "cat",
+        "image": "https://i.pinimg.com/originals/c2/87/d7/c287d7ccf0010d9d0e00b96b030f4adb.jpg"
+    },
+    {
+        "id": "762937993109178692",
+        "name_category": "cat",
+        "title": "cat",
+        "image": "https://i.pinimg.com/originals/33/e0/ad/33e0ad62f4140e649c3d2e470cb658eb.jpg"
+    },
+    {
+        "id": "762937993109178691",
+        "name_category": "cat",
+        "title": "cat",
+        "image": "https://i.pinimg.com/originals/f3/b5/9a/f3b59a4a0cc213b452f97d4e6dd1fc22.jpg"
+    },
+    {
+        "id": "762937993109178689",
+        "name_category": "cat",
+        "title": "cat",
+        "image": "https://i.pinimg.com/originals/84/88/13/848813d216ed98a81544c7515a046bc9.jpg"
+    },
+    {
+        "id": "762937993109178686",
+        "name_category": "cat",
+        "title": "cat",
+        "image": "https://i.pinimg.com/originals/28/7a/4f/287a4fb443ef2931dfd784d6cf2039dd.jpg"
+    },
+    {
+        "id": "762937993109178684",
+        "name_category": "cat",
+        "title": "cat",
+        "image": "https://i.pinimg.com/originals/29/41/08/29410885845ea7d2ad8e314418e3eb38.jpg"
+    },
+    {
+        "id": "762937993109178678",
+        "name_category": "cat",
+        "title": "cat",
+        "image": "https://i.pinimg.com/originals/48/c1/db/48c1db2234dd0a6669b542eb49e0d7f0.jpg"
+    },
+    {
+        "id": "762937993109178675",
+        "name_category": "cat",
+        "title": "cat",
+        "image": "https://i.pinimg.com/originals/33/6f/08/336f08c97db512a995d82eb83898ae1b.jpg"
+    },
+    {
+        "id": "762937993109178674",
+        "name_category": "cat",
+        "title": "cat",
+        "image": "https://i.pinimg.com/originals/5b/11/fe/5b11fe6a0ef9a46ffaee8b03dad16d57.jpg"
+    },
+    {
+        "id": "762937993109178654",
+        "name_category": "cat",
+        "title": "cat",
+        "image": "https://i.pinimg.com/originals/10/f9/7f/10f97f5472889d63dca625362d3e3eb4.jpg"
+    },
+    {
+        "id": "762937993109178645",
+        "name_category": "cat",
+        "title": "cat",
+        "image": "https://i.pinimg.com/originals/67/c3/15/67c315def66b97ea2eb9c123ea16b65e.jpg"
+    },
+    {
+        "id": "762937993109178643",
+        "name_category": "cat",
+        "title": "cat",
+        "image": "https://i.pinimg.com/originals/bf/9f/96/bf9f96a38119884127515ce8748d3422.jpg"
+    },
+    {
+        "id": "762937993109178637",
+        "name_category": "cat",
+        "title": "cat",
+        "image": "https://i.pinimg.com/originals/d6/db/13/d6db130fea7d8897918b7117ba770d42.jpg"
+    },
+    {
+        "id": "762937993109178636",
+        "name_category": "cat",
+        "title": "cat",
+        "image": "https://i.pinimg.com/originals/93/5a/fa/935afa3019ad73954ecf432687874085.jpg"
+    },
+    {
+        "id": "762937993109178631",
+        "name_category": "cat",
+        "title": "cat",
+        "image": "https://i.pinimg.com/originals/d5/19/bd/d519bd6cdb3cae361f2e516757718607.jpg"
+    },
+    {
+        "id": "762937993109178629",
+        "name_category": "cat",
+        "title": "cat",
+        "image": "https://i.pinimg.com/originals/40/7a/77/407a77ca6e6cc13afa80ce834c9e4b43.jpg"
+    },
+    {
+        "id": "762937993109178628",
+        "name_category": "cat",
+        "title": "cat",
+        "image": "https://i.pinimg.com/originals/86/7c/a9/867ca9a0265e57b5ee9166add4526068.jpg"
+    },
+    {
+        "id": "762937993109178626",
+        "name_category": "cat",
+        "title": "cat",
+        "image": "https://i.pinimg.com/originals/3b/64/a3/3b64a3aa36b8a51c879d48a57cbc0786.jpg"
+    },
+    {
+        "id": "689402655474561678",
+        "name_category": "cat",
+        "title": "cat",
+        "image": "https://i.pinimg.com/originals/e1/9f/47/e19f4768a10c3f399fd5ba92fc4186eb.jpg"
+    },
+    {
+        "id": "689402655474561678",
+        "name_category": "cat",
+        "title": "cat",
+        "image": "https://i.pinimg.com/originals/9f/99/49/9f99497a703fbaee3a66d8251741f3bb.jpg"
+    },
+    {
+        "id": "801148221230023158",
+        "name_category": "cat",
+        "title": "cat",
+        "image": "https://i.pinimg.com/originals/7f/21/aa/7f21aa57d672acb4dfd89688d6231971.jpg"
+    },
+    {
+        "id": "801148221230023158",
+        "name_category": "cat",
+        "title": "cat",
+        "image": "https://i.pinimg.com/originals/2e/7d/02/2e7d02b3860c563d1bdda6cc01105ce6.jpg"
+    },
+    {
+        "id": "162762974025573670",
+        "name_category": "cat",
+        "title": "cat",
+        "image": "https://i.pinimg.com/originals/a2/1b/af/a21bafb6fd877a6da21d30c08bc8972c.jpg"
+    },
+    {
+        "id": "162762974025573670",
+        "name_category": "cat",
+        "title": "cat",
+        "image": "https://i.pinimg.com/originals/43/d4/f3/43d4f378b7d45ff2bcfbe2b62dc6904d.jpg"
+    },
+    {
+        "id": "388857749087662000",
+        "name_category": "cat",
+        "title": "cat",
+        "image": "https://i.pinimg.com/originals/78/69/72/786972cceb9f7bf266778a5775848b12.jpg"
+    },
+    {
+        "id": "388857749087662000",
+        "name_category": "cat",
+        "title": "cat",
+        "image": "https://i.pinimg.com/originals/5d/fc/28/5dfc28c2a5d29dd30785aa66366e15a0.jpg"
+    },
+    {
+        "id": "86342517848507153",
+        "name_category": "cat",
+        "title": "cat",
+        "image": "https://i.pinimg.com/originals/9a/3a/16/9a3a16ebdff494e89ded564afc8503c6.jpg"
+    },
+    {
+        "id": "86342517848507153",
+        "name_category": "cat",
+        "title": "cat",
+        "image": "https://i.pinimg.com/originals/af/80/c5/af80c59b4e66b125f4a47cb177c49497.jpg"
+    },
+    {
+        "id": "625859679478637863",
+        "name_category": "cat",
+        "title": "cat",
+        "image": "https://i.pinimg.com/originals/87/a8/a3/87a8a378128df67cc09df6eda20be10f.jpg"
+    },
+    {
+        "id": "367536019591279430",
+        "name_category": "cat",
+        "title": "cat",
+        "image": "https://i.pinimg.com/originals/a7/f0/1c/a7f01cab31b87524f5bbc7da7ee0856f.jpg"
+    },
+    {
+        "id": "291819250863520346",
+        "name_category": "cat",
+        "title": "cat",
+        "image": "https://i.pinimg.com/originals/59/ec/f6/59ecf6b1014140e645931a27ee9e0869.jpg"
+    },
+    {
+        "id": "291819250863520346",
+        "name_category": "cat",
+        "title": "cat",
+        "image": "https://i.pinimg.com/originals/e4/0f/18/e40f18404c70802d80815fa9ef7c718c.jpg"
     }
   ]
 }

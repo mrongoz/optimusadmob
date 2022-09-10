@@ -1,0 +1,408 @@
+{
+  "Ads": [
+    {
+      "select_main_ads": "ADMOB",
+      "select_backup_ads":"APPLOVIN-M",
+      "main_ads_banner": "ca-app-pub-7906256935637033/1106652519",
+      "main_ads_intertitial":"ca-app-pub-7906256935637033/6167407506",
+      "main_ads_natives":"ca-app-pub-7906256935637033/4662754144",
+      "main_ads_rewards":"ca-app-pub-7906256935637033/9915080820",
+      "backup_ads_natives":"57c237068c0d40a9",
+      "backup_ads_banner":"f13d2ecaf3084e7b",
+      "backup_ads_intertitial":"3a3cdf0c06589c5b",
+      "backup_ads_rewards":"ca467cf614ee0ec1",
+      "open_ads_admob":"ca-app-pub-7906256935637033/9723509137",
+      "open_ads_alien":"",
+      "switch_open_ads":"1",
+      "switch_banner_natives_ads":"",
+      "interval_intertitial": 3,
+      "initialize_sdk":"107355779",
+      "initialize_sdk_backup_ads":"4kDKR418Q3-ykyKsTZiVlrqxPUvaLvXMhv3xW8BbTST0ceb-2uQVqulXX39G3VF_iXmT-MQCcs3wqrf_neVPyo",
+      "high_paying_keyword_1": "",
+      "high_paying_keyword_2": "",
+      "high_paying_keyword_3": "",
+      "high_paying_keyword_4": "",
+      "high_paying_keyword_5": "",
+      "status_app": "0",
+      "link_redirect": "https://",
+      "on_off_category":""
+    }
+  ],
+  "More":
+  [
+    {
+      "id":1,
+      "title":"Darling Dress UP Wallpaper HD",
+      "image":"https://play-lh.googleusercontent.com/1KHvSsUBJgwQXCOlaCLz5pqpALJapGQDDN1kntSUfN47mpUr3KxgFnPjcV-esG7Wtw=w480-h960",
+      "link":"https://play.google.com/store/apps/details?id=com.jigstudio.dressupgirlwallpapershd"
+    },
+    {
+      "id":2,
+      "title":"Kuromi myMelody Wallpaper HD V 1",
+      "image":"https://play-lh.googleusercontent.com/DXIl17gh2wAtN-qJwgIT7Cz9TmQsGYEL5IFpo1E3DbFyb_-D8VosCSkFahZfyYfttg=w480-h960",
+      "link":"https://play.google.com/store/apps/details?id=com.jigstudio.kuromimymelodywallpapershd"
+    },
+    {
+      "id":3,
+      "title":"Turning Red Wallpapers HD",
+      "image":"https://play-lh.googleusercontent.com/bzT8fuV_NvR6aB45CbRWpU_MgMPNgSifKmvV0pCg6zMueooTS9-vujCRM3__sVLXAo8=w480-h960",
+      "link":"https://play.google.com/store/apps/details?id=com.jigstudio.turningredhdwallpapers"
+    }
+  ],
+
+  "Categories": [
+    {
+      "id": 1,
+      "name_category": "kuromi_my_melody",
+      "image": "https://i.pinimg.com/originals/f6/04/2e/f6042e5b4a5795f467965a7c5b507dcb.jpg"
+
+    }
+    
+  ],
+
+  "Data":
+  [
+    {
+        "id": "829084612653653212",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/83/c3/ba/83c3baf316dbfa2fd7f320db8b435313.jpg"
+    },
+    {
+        "id": "899031144338948162",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/1b/c1/9c/1bc19cdabfdc77d1992ff2e840b1d260.jpg"
+    },
+    {
+        "id": "614600680407695047",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/bc/ce/21/bcce2198234a99b3c11e9a0fe7354955.jpg"
+    },
+    {
+        "id": "767863805220012316",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/f6/04/2e/f6042e5b4a5795f467965a7c5b507dcb.jpg"
+    },
+    {
+        "id": "582794008038674949",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/b6/cb/e5/b6cbe56bab02136ddf7288340541f782.jpg"
+    },
+    {
+        "id": "608197124680020493",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/87/b6/b6/87b6b62a23111458c02678abc7c8621d.jpg"
+    },
+    {
+        "id": "842736149027794412",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/81/2b/b2/812bb29313ba286f597891b628341731.jpg"
+    },
+    {
+        "id": "598697344226113110",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/55/a5/23/55a523985667bcf9f2bcd2fc477e943e.jpg"
+    },
+    {
+        "id": "613474780497696879",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/0e/24/e9/0e24e96e3c0c985c58133db78992f652.jpg"
+    },
+    {
+        "id": "605171268684805280",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/02/49/e6/0249e6ccb033d5ee755eb45fbf4e8185.jpg"
+    },
+    {
+        "id": "710724384951040901",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/4c/91/1d/4c911d8dbb4be25faa27867314a5d736.jpg"
+    },
+    {
+        "id": "829084612653653212",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/83/c3/ba/83c3baf316dbfa2fd7f320db8b435313.jpg"
+    },
+    {
+        "id": "619245017530150450",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/99/20/6f/99206f0513470db84a3c06238d9e57a0.jpg"
+    },
+    {
+        "id": "811281320400472390",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/56/1d/a0/561da03327b3774c1ca6a40c93567899.jpg"
+    },
+    {
+        "id": "683843524676198386",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/ed/ad/59/edad596b4b3c489e19d4992e1c064741.jpg"
+    },
+    {
+        "id": "595741856965256384",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/00/bc/e6/00bce6664d341932b2559631d97b4bcd.jpg"
+    },
+    {
+        "id": "589971619949669899",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/28/d5/86/28d586744df7e357e63e1a259c59ebf7.jpg"
+    },
+    {
+        "id": "616219161520941624",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/28/57/63/2857635362f5a9db9f4fec4fa754e31a.jpg"
+    },
+    {
+        "id": "267471665357250656",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/03/a1/df/03a1df09235cee206b67b3c784495880.jpg"
+    },
+    {
+        "id": "793829871830149304",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/5c/49/d8/5c49d8a3ca9311b71d18a33c188bcf31.jpg"
+    },
+    {
+        "id": "683913893428004391",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/65/24/4b/65244b6fafe8b66d4b0176b973669cb6.jpg"
+    },
+    {
+        "id": "578712620884219755",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/2e/a7/91/2ea791fc88ff3feeb75eeb9cf75f9737.jpg"
+    },
+    {
+        "id": "569494315383527266",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/1d/67/a3/1d67a3540631abcde87b3ef1e4d49e75.jpg"
+    },
+    {
+        "id": "569494315383527263",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/2b/19/a2/2b19a27c07a45afc918098de05be88cc.jpg"
+    },
+    {
+        "id": "569494315383527254",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/3c/0f/27/3c0f27f082f1c4f85c6bcc289254a24f.jpg"
+    },
+    {
+        "id": "569494315383527251",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/c5/79/3b/c5793b73551000ee508d8ca67bc6cc88.gif"
+    },
+    {
+        "id": "569494315383527248",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/4b/09/9b/4b099bb29083948a1f572f840ee80889.gif"
+    },
+    {
+        "id": "569494315383268160",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/8e/58/a4/8e58a46e5bf19507cbf6725a61869d9f.jpg"
+    },
+    {
+        "id": "569494315383268136",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/c6/31/cd/c631cd37567f6a4d3a7998c15188d0ae.png"
+    },
+    {
+        "id": "569494315383173760",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/5e/c9/de/5ec9de1005c9abc354e7d4d0b1aa322a.jpg"
+    },
+    {
+        "id": "569494315383173758",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/54/0c/97/540c97fa7bc9d2551908335cf48676d5.jpg"
+    },
+    {
+        "id": "569494315383173757",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/7b/db/3f/7bdb3f5b0233fcdea2bf38d03ed57388.jpg"
+    },
+    {
+        "id": "569494315383173754",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/f5/e8/23/f5e8236ee919f04c91fe545973cd2da8.jpg"
+    },
+    {
+        "id": "569494315383173750",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/20/3a/3a/203a3aa53a1aaea893d1d83558730849.jpg"
+    },
+    {
+        "id": "569494315383173748",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/bf/4f/62/bf4f62c556bb9f25f6e0ac3efff8a721.jpg"
+    },
+    {
+        "id": "569494315383173744",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/e5/af/aa/e5afaa9f1e4dd2d047d99ef43d415105.jpg"
+    },
+    {
+        "id": "569494315383173742",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/11/59/7e/11597e191f2d7bbeca661fabeb31f3e6.jpg"
+    },
+    {
+        "id": "569494315383173739",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/7c/09/fc/7c09fce0d7b61eabf9d8f47800dec076.jpg"
+    },
+    {
+        "id": "569494315382895533",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/26/bf/aa/26bfaaba63e9f9e55e39b9fce7c4da5c.jpg"
+    },
+    {
+        "id": "569494315382895516",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/b3/53/50/b35350b9a586ed3d44d9ead2a7cb6629.png"
+    },
+    {
+        "id": "569494315382895513",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/3f/99/18/3f9918d0c7b974c2334d09232ef099e2.jpg"
+    },
+    {
+        "id": "569494315382895509",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/3b/00/b3/3b00b36f6746bb9296edcf17da0a4b1a.jpg"
+    },
+    {
+        "id": "569494315382895506",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/9a/c7/86/9ac786f9333b2dd099979afc5725dd5f.jpg"
+    },
+    {
+        "id": "569494315382895504",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/e6/02/ff/e602ff61865445c1e30159ed0fa1e9b7.jpg"
+    },
+    {
+        "id": "569494315382758930",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/04/86/12/0486123018149d3ad8435e519a8b8fbd.jpg"
+    },
+    {
+        "id": "569494315382697013",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/ac/aa/6d/acaa6d6bff2d46c4c2f1a4addac11c24.jpg"
+    },
+    {
+        "id": "569494315382697009",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/a4/51/0e/a4510e1abefa537efe73a039badca632.jpg"
+    },
+    {
+        "id": "604256475008727202",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/6f/66/eb/6f66ebd7840c58b585745aa799840852.jpg"
+    },
+    {
+        "id": "582090320591215586",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/5e/86/dc/5e86dc28dcee0d66172c4166ca623588.jpg"
+    },
+    {
+        "id": "632966922640461299",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/66/63/e9/6663e9da0c4d6f4465cb7ba94ae31ad8.jpg"
+    },
+    {
+        "id": "687010118159231466",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/95/67/d2/9567d2bc439968b0517466661113d66d.jpg"
+    },
+    {
+        "id": "418553359125766439",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/7e/f0/da/7ef0da24ba2c7ae3b7973c3309bbd92e.jpg"
+    },
+    {
+        "id": "154318724717196331",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/f8/5b/92/f85b92ecc1338b0154c94701e643f505.jpg"
+    },
+    {
+        "id": "778348748116237689",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/d2/47/99/d24799ccfa854986fa1ccc3bd0640435.jpg"
+    },
+    {
+        "id": "202802789455168333",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/d5/2f/5e/d52f5e19db147621dd1ae220b1ffd50d.jpg"
+    },
+    {
+        "id": "807622145676557182",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/bc/d9/f3/bcd9f3e5caabd4457418271c75eef9dd.jpg"
+    },
+    {
+        "id": "587860557617379636",
+        "name_category": "kuromi_my_melody",
+        "title": "kuromi my melody",
+        "image": "https://i.pinimg.com/originals/47/11/e8/4711e8bef341bc83ae8a044255704dde.jpg"
+    }
+  ]
+}

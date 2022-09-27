@@ -1,1 +1,1 @@
-{"gameName":"Pet Rescue","storeLink":"https://play.google.com/store/apps/details?id=com.pgstudio.savemypetcat","imageUrls":["https://s3.us-east-1.wasabisys.com/sourcecodegame01/mrongos/PETRESCUE-scaled.jpg"]}
+{"gameName":"Pet Rescue","storeLink":"https://play.google.com/store/apps/details?id=com.pgstudio.savemypetcat","imageUrls":["https://s3.us-east-1.wasabisys.com/sourcecodegame01/mrongos/pet-scaled.jpg"]}

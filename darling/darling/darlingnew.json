@@ -1,0 +1,30 @@
+{
+   "Ads": [
+    {
+      "select_main_ads": "ADMOB",
+      "select_backup_ads":"APPLOVIN-M",
+      "main_ads_banner": "ca-app-pub-7906256935637033/1071306842",
+      "main_ads_intertitial":"ca-app-pub-7906256935637033/7445143501",
+      "main_ads_natives":"ca-app-pub-7906256935637033/2926518458",
+      "backup_ads_natives":"74c3e4e052a2522f",
+      "backup_ads_banner":"a22fae54dac0008a",
+      "backup_ads_intertitial":"4e27cd6e69ff6498",
+      "open_ads_admob":"ca-app-pub-7906256935637033/4922862188",
+      "open_ads_alien":"",
+      "switch_open_ads":"1",
+      "switch_banner_natives_ads":"1",
+      "on_off_native_listview":"1",
+      "interval_intertitial": 3,
+      "initialize_sdk":"null",
+      "initialize_sdk_backup_ads":"4kDKR418Q3-ykyKsTZiVlrqxPUvaLvXMhv3xW8BbTST0ceb-2uQVqulXX39G3VF_iXmT-MQCcs3wqrf_neVPyo",
+      "high_paying_keyword_1": "",
+      "high_paying_keyword_2": "",
+      "high_paying_keyword_3": "",
+      "high_paying_keyword_4": "",
+      "high_paying_keyword_5": "",
+      "status_app": "0",
+      "link_redirect": "https://"
+     
+    }
+  ]
+}

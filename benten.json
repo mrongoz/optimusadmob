@@ -1,15 +1,15 @@
 {
    "Ads": [
     {
-      "select_main_ads": "APPLOVIN-M",
-      "select_backup_ads":"ADMOB",
-      "main_ads_banner": "06e0a34ab19a2821",
-      "main_ads_intertitial":"3b695a02f21a5032",
-      "backup_ads_banner":"ca-app-pub-7906256935637033/1667296776",
-      "backup_ads_intertitial":"ca-app-pub-7906256935637033/1607533123",
+      "select_main_ads": "ADMOB",
+      "select_backup_ads":"APPLOVIN-M",
+      "main_ads_banner": "ca-app-pub-7906256935637033/1667296776",
+      "main_ads_intertitial":"ca-app-pub-7906256935637033/1607533123",
+      "backup_ads_banner":"06e0a34ab19a2821",
+      "backup_ads_intertitial":"3b695a02f21a5032",
       "interval_intertitial": 2,
-      "initialize_sdk":"4kDKR418Q3-ykyKsTZiVlrqxPUvaLvXMhv3xW8BbTST0ceb-2uQVqulXX39G3VF_iXmT-MQCcs3wqrf_neVPyo",
-      "initialize_sdk_backup_ads":"ca-app-pub-7906256935637033~8327497256",
+      "initialize_sdk":"ca-app-pub-7906256935637033~8327497256",
+      "initialize_sdk_backup_ads":"4kDKR418Q3-ykyKsTZiVlrqxPUvaLvXMhv3xW8BbTST0ceb-2uQVqulXX39G3VF_iXmT-MQCcs3wqrf_neVPyo",
       "high_paying_keyword_1": "",
       "high_paying_keyword_2": "",
       "high_paying_keyword_3": "",

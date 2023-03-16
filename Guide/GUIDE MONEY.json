@@ -38,8 +38,8 @@
 
     },
     {
-      "category": "Premium SC",
-      "image": "file:///android_asset/image/maskot.jpg"
+      "category": "SurveyTime",
+      "image": "file:///android_asset/image/surveytime.jpeg"
 
     }
   ],
@@ -71,10 +71,10 @@
     {
       "id": 4,
       "category": "Tips",
-      "title": "Konfigurasi GDPR pada dasboard Admob dan menambahkan consents SDK GDPR pada aplikasi Android",
-      "image": "file:///android_asset/image/img2.jpeg",
-      "description": "bagi pemain monetize aplikasi pasti sudah tidak asing dengan istilah GDPR atau General Data Protection Regulation. GDRP adalah peraturan perlindungan data pribadi wilayah Eropa, jadi jika aplikasi anda didistribusikan di negara-negara Uni Eropa maka saya sarankan untuk memasang GDPR. ",
-      "link": "file:///android_asset/guide/guide_2.html"
+      "title": "Make Money in Surveytime just Answer Survey",
+      "image": "file:///android_asset/image/surveytime.jpeg",
+      "description": "Make Money $0.5 - $1 For Just Answer Survey",
+      "link": "https://moneyguidestart.blogspot.com/2023/03/make-money-in-surveytime.html"
     }
   ]
 }

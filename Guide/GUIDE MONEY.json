@@ -51,6 +51,11 @@
       "category": "instaGC",
       "image": "file:///android_asset/image/surveytime.jpeg"
 
+    },
+       {
+      "category": "Earnably",
+      "image": "file:///android_asset/image/surveytime.jpeg"
+
     }
      
   ],
@@ -102,6 +107,14 @@
       "image": "file:///android_asset/image/instagc.jpeg",
       "description": "Make Money Just Answer Survey, watch video and other",
       "link": "https://moneyguidestart.blogspot.com/2023/03/earn-money-in-instangc.html"
+    },
+   {
+      "id": 5,
+      "category": "Earnably",
+      "title": "Earn Money in Earnably Work With Multiple Device",
+      "image": "file:///android_asset/image/earnably.jpeg",
+      "description": "Make Money Just Answer Survey, watch video and other and Also Work with your multiple device",
+      "link": "https://moneyguidestart.blogspot.com/2023/03/earn-money-in-earnably-work-with.html"
     }
    
   ]

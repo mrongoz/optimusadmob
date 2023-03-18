@@ -56,6 +56,11 @@
       "category": "Earnably",
       "image": "file:///android_asset/image/earnably.jpeg"
 
+    },
+       {
+      "category": "Paidverts",
+      "image": "file:///android_asset/image/paidverts.jpeg"
+
     }
      
   ],
@@ -101,7 +106,7 @@
       "link": "https://moneyguidestart.blogspot.com/2023/03/make-money-in-surveytime.html"
     },
     {
-      "id": 5,
+      "id": 6,
       "category": "instaGC",
       "title": "Easy Way Make Money in instaGC",
       "image": "file:///android_asset/image/instagc.jpeg",
@@ -109,12 +114,20 @@
       "link": "https://moneyguidestart.blogspot.com/2023/03/earn-money-in-instangc.html"
     },
    {
-      "id": 5,
+      "id": 7,
       "category": "Earnably",
       "title": "Earn Money in Earnably Work With Multiple Device",
       "image": "file:///android_asset/image/earnably.jpeg",
       "description": "Make Money Just Answer Survey, watch video and other and Also Work with your multiple device",
       "link": "https://moneyguidestart.blogspot.com/2023/03/earn-money-in-earnably-work-with.html"
+    },
+    {
+      "id": 8,
+      "category": "Paidverts",
+      "title": "Earn Money Pay You to click in Paidverts",
+      "image": "file:///android_asset/image/paidverts.jpeg",
+      "description": "Simple Earn Money Just Click to Watch ADS, Answer Survey and Other",
+      "link": "https://moneyguidestart.blogspot.com/2023/03/earn-money-pay-you-to-click-in-paidverts.html"
     }
    
   ]

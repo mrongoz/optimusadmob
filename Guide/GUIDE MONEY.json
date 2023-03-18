@@ -46,6 +46,11 @@
       "category": "SurveyTime",
       "image": "file:///android_asset/image/surveytime.jpeg"
 
+    },
+       {
+      "category": "instaGC",
+      "image": "file:///android_asset/image/surveytime.jpeg"
+
     }
      
   ],
@@ -89,6 +94,14 @@
       "image": "file:///android_asset/image/surveytime.jpeg",
       "description": "Make Money $0.5 - $1 For Just Answer Survey",
       "link": "https://moneyguidestart.blogspot.com/2023/03/make-money-in-surveytime.html"
+    },
+    {
+      "id": 5,
+      "category": "instaGC",
+      "title": "Easy Way Make Money in instaGC",
+      "image": "file:///android_asset/image/instagc.jpeg",
+      "description": "Make Money Just Answer Survey, watch video and other",
+      "link": "https://moneyguidestart.blogspot.com/2023/03/earn-money-in-instangc.html"
     }
    
   ]

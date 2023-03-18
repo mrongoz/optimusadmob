@@ -42,6 +42,11 @@
       "image": "file:///android_asset/image/peer2profit.jpeg"
 
     },
+       {
+      "category": "Paidverts",
+      "image": "file:///android_asset/image/paidverts.jpeg"
+
+    },
    
        {
       "category": "instaGC",
@@ -53,11 +58,7 @@
       "image": "file:///android_asset/image/earnably.jpeg"
 
     },
-       {
-      "category": "Paidverts",
-      "image": "file:///android_asset/image/paidverts.jpeg"
-
-    },
+      
        {
       "category": "SurveyTime",
       "image": "file:///android_asset/image/surveytime.jpeg"

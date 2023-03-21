@@ -23,23 +23,8 @@
   ],
      "Categories": [
     {
-      "category": "Tips",
-      "image": "file:///android_asset/image/alien1.jpg"
-
-    },
-    {
-      "category": "Tutorial",
-      "image": "https://aliendro.id/uploads/demo/guideslide/alien_logo.jpg"
-
-    },
-    {
-      "category": "Free SC",
-      "image": "https://aliendro.id/uploads/demo/guideslide/icon.jpg"
-
-    },
-    {
-      "category": "Premium SC",
-      "image": "file:///android_asset/image/maskot.jpg"
+      "category": "FOREX",
+      "image": "file:///android_asset/image/FOREX1.jpg"
 
     }
   ],
@@ -47,34 +32,82 @@
   "Data": [
     {
       "id": 1,
-      "category": "Tips",
-      "title": "Filter iklan dewasa dengan KIDOZ di aplikasi/game target Anak",
-      "image": "https://aliendro.id/uploads/blog/202102/img_602efea7d6f9a7-16997514-46001383.jpg",
-      "description": "Jika anda menggunakan link website atau link HTML dari folder asset maka wajib mengisi bagian description",
-      "link": "https://aliendro.id/uploads/demo/guideslide/guide_5.html"
+      "category": "FOREX",
+      "title": "What is Forex?",
+      "image": "file:///android_asset/image/FOREX1.jpg",
+      "description": "null",
+      "link": "https://forextradingsucsess.blogspot.com/2022/02/whats-is-forex.html"
     },
     {
       "id": 2,
-      "category": "Tutorial",
-      "title": "Asumsi lamanya publish dan update aplikasi di google playstore",
-      "image": "file:///android_asset/image/img1.jpeg",
+      "category": "FOREX",
+      "title": "How To Read Candlestick Chart in Forex",
+      "image": "file:///android_asset/image/candles.png",
       "description": "null",
-      "link": "<p style=\"text-align: justify;\">Hallo om pengguna Source Code Aliendroid,&nbsp;pernah tidak kalian mendapatan rilis atau update aplikasi sampai 1-7 hari lamanya? jika iya mungkin sempatkan baca apa yang penulis tuangkan hasil pengujian selama 7 hari melakukan update dan publish aplikasi, Bagi para pembaca yang mengikuti pengujiannya di status WhatsApp penulis pasti tahu, dari tanggal 12 - 19 Desember 2020 penulis melakukan beberapa perubahan pada aplikasi yang disesuian dengan Kebijakan Google Console. Dan Mendapatkan hasil&nbsp; -&gt;&nbsp;<strong>Tidak ada trik spesial hanya kita saja yang harus menyesuaikan dengan kebijakan google</strong>. Berikut hasil pengujian :</p>\n<p style=\"text-align: justify;\"><img class=\"img-fluid lazyloaded\" src=\"https://aliendro.id/uploads/blog/202012/img_5fddff4b37a441-85321274-96926748.jpg\" alt=\"Asumsi lamanya publish dan update aplikasi di google playstore\" width=\"331\" height=\"154\" data-src=\"https://aliendro.id/uploads/blog/202012/img_5fddff4b37a441-85321274-96926748.jpg\" /></p>\n<p style=\"text-align: justify;\"><strong>1. Kategori</strong><br />Menurut penulis kategori aplikasi/game mempengaruhi lamanya update atau publish aplikasi. Jika melihat notifikasi di akun Gdev, tertera publish akan memakan waktu karena covid. Artinya review aplikasi benar-benar melibatkan manusia, tentunya melibatkan tim review yang banyak dan dikelompokan sesuai dengan kategori.</p>\n<p style=\"text-align: justify;\">Selama ini penulis hanya bermain di 2 kategori (pendidikan dan trivia) dan selama pengujian dengan perbandingan aplikasi penulis dengan member lain terpaut jauh waktunya, penulis paling lama mendapat waktu 3 jam, dan member yang ikut mebandingkan ada yang mencapai 1-14 hari belum di aprove (kategori: musik dan buku).&nbsp;Melihat lamanya dan kategori yang digunakan oleh member untuk perbandingan, penulis berasumsi jika kedua kategori ini banyak sekali antrian publish dan updatenya. Sehingga menyebabkan lamanya proses review.&nbsp;</p>\n<p style=\"text-align: justify;\"><strong>2. White Label</strong><br />White Label adalah bahasa penulis untuk aplikasi yang memang dibuat secara white/bersih baik dari judul, icon, deskripsi dan isi konten aplikasi tidak memiliki katakunci atau asset yang memang memiliki merek dagang atau hak cipta. Asumsi penulis, aplikasi yang memiliki salah satu dari hak cipta atau merek dagang membutuhkan waktu review karena harus dilakukan pengecekan lebih lama jika didalam aplikasi tersebut terdapat konten yang tidak boleh dipakai, misalnya musik / design / karakter, dll.</p>\n<p style=\"text-align: justify;\"><strong>3. Waktu Pengajuan</strong><br />Terlepas iya atau tidak, menurut penulis pengajuan publish dan review dipengaruhi oleh waktu, penulis sendiri melakukan pengujian update aplikasi pada waktu pagi dan malam hari. Didapatkanlah rentang waktu tercepat pada update aplikasi dipagi hari. Apakah tim review google console dipengaruhi dinegara mana akun itu dibuat?</p>\n<p style=\"text-align: justify;\"><strong>4. Uses Permission</strong><br />Pengunaan uses permission aplikasi juga menurut penulis sangat berpengaruh, misalnya jika aplikasi meminta ijin untuk membaca lokasi pengguna, maka tim review akan mengecek kedalaman aplikasi sampai mana membaca lokasi dalam apliaksi tersebut.</p>\n<p style=\"text-align: justify;\"><strong>5. Banyaknya Fitur Update</strong><br />Konten / fitur apa saja yang di update menurut laporan member mempengaruhi sekali, jika hanya update layout / desain tanpa mengubah konten bisa lebih cepat.&nbsp;</p>\n<p style=\"text-align: justify;\"><strong>Kesimpulan :</strong>&nbsp;Jadi, ternyata tidak ada trik spesial atau pola ini itu, yang ada adalah sudah benarkan aplikasi yang kita buat mengikuti kebijakan google console?&nbsp; Hanya anda yang bisa jawab.&nbsp;</p>"},
+      "link": "https://forextradingsucsess.blogspot.com/2022/02/how-to-read-candlestick-charts.html"},
     {
       "id": 3,
-      "category": "Tutorial",
-      "title": "Yang harus disiapkan untuk monetize iklan Admob",
-      "image": "https://aliendro.id/uploads/blog/202012/img_5fd628c5568757-40238678-73650032.jpg",
-      "description": "Sampai saai ini Admob masih menjadi pilihan utama dalam me monetize aplikasi mobile. Tapi dikarenakan kendala limits akun Admob akhirnya banyak pengembang aplikasi mulai mencari pengganti Admob seperti Facebook Audience Network, Mopub, Startapp, dll",
-      "link": "https://aliendro.id/uploads/demo/guideslide/guide_1.html"
+      "category": "FOREX",
+      "title": "24 Different Candlestick Patterns to Learn for Intraday Trading",
+      "image": "file:///android_asset/image/candles.png",
+      "description": "null",
+      "link": "https://forextradingsucsess.blogspot.com/2022/02/24-different-candlestick-patterns-to.html"
     },
     {
       "id": 4,
-      "category": "Tips",
-      "title": "Konfigurasi GDPR pada dasboard Admob dan menambahkan consents SDK GDPR pada aplikasi Android",
-      "image": "file:///android_asset/image/img2.jpeg",
-      "description": "bagi pemain monetize aplikasi pasti sudah tidak asing dengan istilah GDPR atau General Data Protection Regulation. GDRP adalah peraturan perlindungan data pribadi wilayah Eropa, jadi jika aplikasi anda didistribusikan di negara-negara Uni Eropa maka saya sarankan untuk memasang GDPR. ",
-      "link": "file:///android_asset/guide/guide_2.html"
+      "category": "FOREX",
+      "title": "Best Automated Trading Strategies For Forex",
+      "image": "file:///android_asset/image/forex2.jpg",
+      "description": "null",
+      "link": "https://forextradingsucsess.blogspot.com/2022/02/best-automated-trading-strategies-for.html"
+    },
+   {
+      "id": 5,
+      "category": "FOREX",
+      "title": "Learn How to Start Trading in Mobile App or PC",
+      "image": "file:///android_asset/image/starttrad.jpg",
+      "description": "null",
+      "link": "https://forextradingsucsess.blogspot.com/2022/02/start-trading.html"
+    },
+    {
+      "id": 6,
+      "category": "FOREX",
+      "title": "Automated Trading in ThinkOrSwim",
+      "image": "file:///android_asset/image/autotrad.jpg",
+      "description": "null",
+      "link": "https://forextradingsucsess.blogspot.com/2022/02/how-to-automated-trading-in-thinkorswim.html"
+    },
+   {
+      "id": 7,
+      "category": "FOREX",
+      "title": "8 Trigger Scenarios That We Will Build",
+      "image": "file:///android_asset/image/trigger1.png",
+      "description": "null",
+      "link": "https://forextradingsucsess.blogspot.com/2022/02/8-trigger-scenarios-that-we-will-build.html"
+    },
+   {
+      "id": 8,
+      "category": "FOREX",
+      "title": "Explanation and full Tutorial 8 Trigger Scenarios Automated Triggers",
+      "image": "file:///android_asset/image/trigger.png",
+      "description": "null",
+      "link": "https://forextradingsucsess.blogspot.com/2022/02/explanation-and-full-tutorial-8-trigger.html"
+    },
+    {
+      "id": 9,
+      "category": "FOREX",
+      "title": "Best Automated Trading Platform 2023",
+      "image": "file:///android_asset/image/FOREX1.jpg",
+      "description": "null",
+      "link": "https://forextradingsucsess.blogspot.com/2022/02/best-automated-trading-platform-2022.html"
+    },
+    {
+      "id": 9,
+      "category": "FOREX",
+      "title": "Best Forex Brokers for 2023",
+      "image": "file:///android_asset/image/FOREX1.jpg",
+      "description": "null",
+      "link": "https://forextradingsucsess.blogspot.com/2022/02/best-forex-brokers-for-2022.html"
     }
   ]
 }

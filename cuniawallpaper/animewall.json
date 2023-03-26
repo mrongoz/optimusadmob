@@ -31,37 +31,6 @@
   "More":
   [
     {
-      "id":1,
-      "title":"Ludo King",
-      "image":"https://lh3.googleusercontent.com/GIa9Ek1a4hyqqulStVT1RC7Mus0K5nOcCaeDpt9sJEekq6lnrSIK7LDrpH0OHlFgwog=s180-rw",
-      "link":"https://play.google.com/store/apps/details?id=com.ludo.king"
-    },
-    {
-      "id":2,
-      "title":"Homescapes",
-      "image":"https://lh3.googleusercontent.com/-mPOu6rWotI9ZLDVnvE3ZqKdTgEfaQaqD5SArpkYwlNJM0fOhJLRfJPpPWACHLezwIQ=s180-rw",
-      "link":"https://play.google.com/store/apps/details?id=com.playrix.homescapes"
-    },
-    {
-      "id":3,
-      "title":"Minecraft",
-      "image":"https://lh3.googleusercontent.com/VSwHQjcAttxsLE47RuS4PqpC4LT7lCoSjE7Hx5AW_yCxtDvcnsHHvm5CTuL5BPN-uRTP=s180-rw",
-      "link":"https://play.google.com/store/apps/details?id=com.mojang.minecraftpe"
-    }
-  ],
-
-  "Categories": [
-    {
-      "id": 1,
-      "name_category": "Nature",
-      "image": "https://i.pinimg.com/564x/6c/b4/4d/6cb44d856850800b2b97858ac337e47f.jpg"
-
-    }
-  ],
-
-  "Data":
-  [
-    {
         "id": "778208010595804798",
         "name_category": "anime_school",
         "title": "anime school",
@@ -384,6 +353,420 @@
         "name_category": "anime_school",
         "title": "anime school",
         "image": "https://i.pinimg.com/originals/74/f2/eb/74f2eba41ed810f15510d31041872679.jpg"
+    },
+    {
+        "id": "693484042613217981",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/b1/8d/ed/b18deddaac8a534da0aae85b704cc391.jpg"
+    },
+    {
+        "id": "4011087157003658",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/47/90/ed/4790ed97bab39b6983c0eab51b1a6309.jpg"
+    },
+    {
+        "id": "1072067886273713188",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/fd/a7/26/fda7268126164ab675bc94113c182dfb.jpg"
+    },
+    {
+        "id": "437975132520444508",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/9a/5d/55/9a5d555834b5d7fa2b0d0c9188d9518c.jpg"
+    },
+    {
+        "id": "7107311901942796",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/7c/af/9d/7caf9dd821b7936a0f3057b9a902d935.jpg"
+    },
+    {
+        "id": "633387424049436",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/10/f2/1c/10f21cf12ed90a33f275d7b0f0af1f10--otaku-anime-manga-anime.jpg"
+    },
+    {
+        "id": "138485757385640767",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/36/d8/b0/36d8b03f009744a2cce19a741cd40a1d.jpg"
+    },
+    {
+        "id": "1046312925907131561",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/c6/44/e3/c644e33e5b8bf656442447ab34433184.jpg"
+    },
+    {
+        "id": "575334921158785284",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/38/4a/22/384a22084ba2cf2c83dd34eb90dfeec6.jpg"
+    },
+    {
+        "id": "1010073022654861524",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/18/d9/d9/18d9d9788106b47d1e2373bafd12e9e6.jpg"
+    },
+    {
+        "id": "791718809513469575",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/37/f9/e6/37f9e655f4528075292805a350bed92d.jpg"
+    },
+    {
+        "id": "636203884879745520",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/17/35/2a/17352a8af4c5272efb8e89a3b0b68875.jpg"
+    },
+    {
+        "id": "635077984927371984",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/83/ef/e4/83efe46198210865f906a987518d16c4.jpg"
+    },
+    {
+        "id": "2885187253754086",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/d5/bf/d7/d5bfd753f50f29a595f3ec37d4d56f38.jpg"
+    },
+    {
+        "id": "571394271508723045",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/be/02/7e/be027e7e5e6b8b6685b2e49154ad3a92.jpg"
+    },
+    {
+        "id": "8796161762903405",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/4a/07/b1/4a07b1e504ee84c3ff10e4c6ed3ec3df.jpg"
+    },
+    {
+        "id": "689261917992421241",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/5b/c1/58/5bc1582b758d465a9ce8440476a182f0.jpg"
+    },
+    {
+        "id": "806425877044423198",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/56/16/58/5616587245d015a086496c0df3402400.jpg"
+    },
+    {
+        "id": "641903753151611858",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/0a/a6/34/0aa634a9789fcbf243f3dbc280f070e5.jpg"
+    },
+    {
+        "id": "1053842381529073055",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/bb/d6/e4/bbd6e4be84e2f3e6fec5a0e88dc2727b.jpg"
+    },
+    {
+        "id": "613052568042192772",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/3a/2e/f3/3a2ef3924b35aff72ae5f085303cf9b3.jpg"
+    },
+    {
+        "id": "25403185388634025",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/97/54/51/975451a7dc7f1ff5231859c71c66790a.jpg"
+    },
+    {
+        "id": "346425396343095527",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/ab/32/f5/ab32f558f3f4582999045b91c8790487.jpg"
+    },
+    {
+        "id": "532691462163107279",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/1d/d7/cb/1dd7cb8097da9a13e539b87952a1dc53--school-projects-mythical-creatures.jpg"
+    },
+    {
+        "id": "736408976592624005",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/0d/82/4c/0d824ca7b334c5e9050709f66184b10d.jpg"
+    },
+    {
+        "id": "595671488228851769",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/ba/c9/53/bac953c01eef6f62719bfecd0f6e482a.jpg"
+    },
+    {
+        "id": "278308451965304710",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/3d/86/ab/3d86ab741518499a2bc83bfca8787e9b.jpg"
+    },
+    {
+        "id": "319685273553589773",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/64/a5/92/64a592cf1a6eac452aa0f8d5e60e073b.jpg"
+    },
+    {
+        "id": "847380486157510611",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/69/d0/7d/69d07d64a83a9a1697bd0bbe3e419085.jpg"
+    },
+    {
+        "id": "689965605433429356",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/02/5c/5b/025c5bb18d2e2fb558752c387aa7e82f.jpg"
+    },
+    {
+        "id": "65020788361355673",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/bb/43/27/bb43277f1c5264db9c3ceaac7066072a.jpg"
+    },
+    {
+        "id": "761038037047617152",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/ce/54/31/ce5431400827434a551409a80c8dee6e--sailor-moon-usagi-sailor-moon-art.jpg"
+    },
+    {
+        "id": "465278205236540803",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/55/67/05/556705b03b0f95a50e052b8ddc447027--art-work-exo-fan.jpg"
+    },
+    {
+        "id": "625367098229233400",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/9d/79/30/9d7930bbcfeb3accc1837832a7397577.jpg"
+    },
+    {
+        "id": "778208010595804798",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/37/e8/9e/37e89ef24b27de0e5140958f5cf3e029.png"
+    },
+    {
+        "id": "778208010595798361",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/83/92/28/83922873827429726c56a904c6ad3c07.jpg"
+    },
+    {
+        "id": "778208010595744835",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/df/a4/c3/dfa4c305091de56f1833a42a5ccce43f.jpg"
+    },
+    {
+        "id": "778208010595744748",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/a6/fd/da/a6fdda9968ac355944b34a13bd37de4c.jpg"
+    },
+    {
+        "id": "778208010595744599",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/e4/e4/2c/e4e42ce7047beefb1d0ddc421b1240d1.png"
+    },
+    {
+        "id": "778208010594003253",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/de/21/25/de2125329f705ba476b091bf17c25d5b.jpg"
+    },
+    {
+        "id": "778208010594003011",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/70/c0/4b/70c04b07a6556a3fc295c6ce4e3b4529.jpg"
+    },
+    {
+        "id": "778208010594002416",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/b2/fa/a0/b2faa0e7eb803e10cf82f8440b87412f.jpg"
+    },
+    {
+        "id": "778208010593978350",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/b2/e4/4d/b2e44d6d63f66c41440c65f01fb9c1f6.jpg"
+    },
+    {
+        "id": "778208010593978343",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/72/6b/39/726b3993056d6ca287db9ce40f23094a.jpg"
+    },
+    {
+        "id": "778208010593978290",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/45/fd/ee/45fdee1db48ec6f38c23db6064038a7b.jpg"
+    },
+    {
+        "id": "778208010593978287",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/bc/dc/bd/bcdcbdcc1126db59ab57feffa7385dd1.jpg"
+    },
+    {
+        "id": "778208010593936648",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/a1/a5/1e/a1a51e94db49502ab80849de08cd0fdf.jpg"
+    },
+    {
+        "id": "778208010593936512",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/4f/86/e6/4f86e671911ee011862a22e0bbccac20.jpg"
+    },
+    {
+        "id": "778208010593936507",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/6f/4f/d0/6f4fd062296c2e3924d8ea3f55fdb5ff.jpg"
+    },
+    {
+        "id": "778208010593936493",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/e4/e6/25/e4e6257e620e6aeb01412c60a370b859.jpg"
+    },
+    {
+        "id": "778208010593936451",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/5a/9f/b2/5a9fb20e177886612d0b838a21f34579.jpg"
+    },
+    {
+        "id": "778208010593936444",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/80/77/91/80779179821027c720edab4870a1d198.jpg"
+    },
+    {
+        "id": "778208010593936389",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/a6/f9/e9/a6f9e95a79d3648bad47fbc34dce5414.jpg"
+    },
+    {
+        "id": "778208010593700398",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/82/da/54/82da54069b3ca226052403c7a9832a4b.jpg"
+    },
+    {
+        "id": "778208010593700317",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/e8/4e/e5/e84ee5c575803f67edecbabef638d43a.jpg"
+    },
+    {
+        "id": "778208010593657905",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/42/9c/f4/429cf45c8e4332ce2cf5d605db617c64.jpg"
+    },
+    {
+        "id": "778208010593582084",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/c2/f7/00/c2f700271539f58795ddd5ae52de4f14.jpg"
+    },
+    {
+        "id": "778208010593582078",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/a4/e8/86/a4e88656186e31791ced95fb91100f7d.jpg"
+    },
+    {
+        "id": "722475965241340055",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/9e/78/26/9e7826b2556be62270436372e3fec370.jpg"
+    },
+    {
+        "id": "613967361720836425",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/5a/29/5e/5a295ecaa50b97a6b456dd7eda6e8f72.jpg"
+    },
+    {
+        "id": "490470215668742453",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/d4/0e/d1/d40ed1fe796aa8fe49cb86da669e695c.jpg"
+    },
+    {
+        "id": "334744184797197949",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/1b/da/48/1bda48bd42b5c44a72870ab3ca922a3c.jpg"
+    },
+    {
+        "id": "635007616226621111",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/03/ea/97/03ea973cc9f8cb594ad600ac28dc2458--funniest-quotes-funniest-pictures.jpg"
+    },
+    {
+        "id": "580682945678458205",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/69/57/d5/6957d55313d48c8d2288619564bf21b3.jpg"
+    },
+    {
+        "id": "596445544414302041",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/bf/b9/a3/bfb9a3e46cbc3a1de3fca90146660ec9.jpg"
+    },
+    {
+        "id": "11329436553095666",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/6e/5d/7a/6e5d7a373a10a9057f29c0e145eee92f.jpg"
+    },
+    {
+        "id": "257338566192925782",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/7b/81/5a/7b815a1dcea5fceeb78467be0c491fc5.jpg"
+    },
+    {
+        "id": "729935052123392199",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/86/31/d6/8631d6cee80dc24821077590436e703e.jpg"
+    },
+    {
+        "id": "927952698196616035",
+        "name_category": "anime_school",
+        "title": "anime school",
+        "image": "https://i.pinimg.com/originals/e0/e2/a5/e0e2a5df3ccaa0be74675bd23be64fc9.jpg"
     }
   ]
 }

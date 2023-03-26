@@ -253,47 +253,211 @@
         "title": "anime school",
         "image": "https://i.pinimg.com/originals/d7/30/cc/d730cc9733e25306c95338aec9454da3.jpg"
     },
+ 
     {
-        "id": "485966616053646178",
-        "name_category": "anime_school",
-        "title": "anime school",
-        "image": "https://i.pinimg.com/originals/c1/5a/a6/c15aa6ab6a59f728a348d22810fdcb9f.jpg"
+        "id": "989314243119987807",
+        "name_category": "anime_student",
+        "title": "anime student",
+        "image": "https://i.pinimg.com/originals/98/79/cc/9879cca345a722162daa94d2c28a3fed.jpg"
     },
     {
-        "id": "861102391223915365",
-        "name_category": "anime_school",
-        "title": "anime school",
-        "image": "https://i.pinimg.com/originals/3d/f7/a8/3df7a8ab719461372e17e1c0661e271b.jpg"
+        "id": "989314243119987802",
+        "name_category": "anime_student",
+        "title": "anime student",
+        "image": "https://i.pinimg.com/originals/5f/67/06/5f6706ecd3034b53992900ba47214eca.jpg"
     },
     {
-        "id": "376683956333449388",
-        "name_category": "anime_school",
-        "title": "anime school",
-        "image": "https://i.pinimg.com/originals/75/5b/0c/755b0c703c517f4834c00d632484a13c.jpg"
+        "id": "989314243119987801",
+        "name_category": "anime_student",
+        "title": "anime student",
+        "image": "https://i.pinimg.com/originals/59/c9/10/59c910dc2dd117a6b0e76abaff620777.jpg"
     },
     {
-        "id": "499407046192966236",
-        "name_category": "anime_school",
-        "title": "anime school",
-        "image": "https://i.pinimg.com/originals/f4/77/0f/f4770fa295ca59ae871fbdd4d08c5ae5.jpg"
+        "id": "989314243119987794",
+        "name_category": "anime_student",
+        "title": "anime student",
+        "image": "https://i.pinimg.com/originals/f9/21/23/f92123e872f14c60e75503d3a880cf2e.jpg"
     },
     {
-        "id": "373939575321280551",
-        "name_category": "anime_school",
-        "title": "anime school",
-        "image": "https://i.pinimg.com/originals/04/08/5a/04085afb8b4fdaa2778469bdd2802030.jpg"
+        "id": "989314243119987785",
+        "name_category": "anime_student",
+        "title": "anime student",
+        "image": "https://i.pinimg.com/originals/f4/ed/a0/f4eda0de38f489bb74d8b08739ef9aae.jpg"
     },
     {
-        "id": "633387436873483",
-        "name_category": "anime_school",
-        "title": "anime school",
-        "image": "https://i.pinimg.com/originals/13/4b/22/134b226e283d03214151ba1f5b91ce66.jpg"
+        "id": "989314243119987780",
+        "name_category": "anime_student",
+        "title": "anime student",
+        "image": "https://i.pinimg.com/originals/80/73/b1/8073b1f25a85ef0899a7345747acb90d.jpg"
     },
     {
-        "id": "4785143344453547",
-        "name_category": "anime_school",
-        "title": "anime school",
-        "image": "https://i.pinimg.com/originals/16/39/d1/1639d1d6cf56787aa8878e057634a9d1.jpg"
+        "id": "989314243119987777",
+        "name_category": "anime_student",
+        "title": "anime student",
+        "image": "https://i.pinimg.com/originals/7b/66/65/7b66654e045ad319e863e4ce048cf1ac.jpg"
+    },
+    {
+        "id": "989314243119987770",
+        "name_category": "anime_student",
+        "title": "anime student",
+        "image": "https://i.pinimg.com/originals/a5/b3/0b/a5b30b6a1a2b0dfc4fd198e31817b5a5.jpg"
+    },
+    {
+        "id": "989314243119987764",
+        "name_category": "anime_student",
+        "title": "anime student",
+        "image": "https://i.pinimg.com/originals/05/44/df/0544df050cfa869b0b911e7ffcce815b.jpg"
+    },
+    {
+        "id": "989314243119987761",
+        "name_category": "anime_student",
+        "title": "anime student",
+        "image": "https://i.pinimg.com/originals/03/cb/84/03cb8434ea301ab53c8f492410a9e8bc.jpg"
+    },
+    {
+        "id": "989314243119987760",
+        "name_category": "anime_student",
+        "title": "anime student",
+        "image": "https://i.pinimg.com/originals/2a/0e/26/2a0e268b272f640550af132108371dd0.jpg"
+    },
+    {
+        "id": "989314243119987754",
+        "name_category": "anime_student",
+        "title": "anime student",
+        "image": "https://i.pinimg.com/originals/68/a6/44/68a644163c0697d08a6d1ff532e207d6.jpg"
+    },
+    {
+        "id": "989314243119987749",
+        "name_category": "anime_student",
+        "title": "anime student",
+        "image": "https://i.pinimg.com/originals/57/37/da/5737da58d4a8e3b59f873743d2651ddb.jpg"
+    },
+    {
+        "id": "989314243119987742",
+        "name_category": "anime_student",
+        "title": "anime student",
+        "image": "https://i.pinimg.com/originals/09/e2/73/09e273e4e15f039dc66703b98194de1f.jpg"
+    },
+    {
+        "id": "989314243119987737",
+        "name_category": "anime_student",
+        "title": "anime student",
+        "image": "https://i.pinimg.com/originals/11/cf/df/11cfdfb65d63cdccc1ef02353dc24398.jpg"
+    },
+    {
+        "id": "989314243119987733",
+        "name_category": "anime_student",
+        "title": "anime student",
+        "image": "https://i.pinimg.com/originals/3c/4d/12/3c4d120b580d309c0f38912882d64e38.jpg"
+    },
+    {
+        "id": "989314243119987727",
+        "name_category": "anime_student",
+        "title": "anime student",
+        "image": "https://i.pinimg.com/originals/cc/f3/f2/ccf3f2190fa5b51a3897b727139ec16e.jpg"
+    },
+    {
+        "id": "989314243119987720",
+        "name_category": "anime_student",
+        "title": "anime student",
+        "image": "https://i.pinimg.com/originals/3b/82/16/3b8216d7f7349a76296bc8feb424f634.jpg"
+    },
+    {
+        "id": "989314243119987708",
+        "name_category": "anime_student",
+        "title": "anime student",
+        "image": "https://i.pinimg.com/originals/4a/01/f5/4a01f59eaff15ad155f9cfeee939374a.jpg"
+    },
+    {
+        "id": "989314243119987698",
+        "name_category": "anime_student",
+        "title": "anime student",
+        "image": "https://i.pinimg.com/originals/6c/63/53/6c6353db6535e4fa9269c7db9ca835eb.jpg"
+    },
+    {
+        "id": "989314243119987685",
+        "name_category": "anime_student",
+        "title": "anime student",
+        "image": "https://i.pinimg.com/originals/df/09/8c/df098c8252d4958e284051a22c3db9c5.jpg"
+    },
+    {
+        "id": "989314243119987680",
+        "name_category": "anime_student",
+        "title": "anime student",
+        "image": "https://i.pinimg.com/originals/4c/25/07/4c25070992985109928a5c354ed98e62.jpg"
+    },
+    {
+        "id": "989314243119987636",
+        "name_category": "anime_student",
+        "title": "anime student",
+        "image": "https://i.pinimg.com/originals/e8/e1/6d/e8e16d4d8c734ba7881cef2c0e3fd0a5.jpg"
+    },
+    {
+        "id": "989314243119987634",
+        "name_category": "anime_student",
+        "title": "anime student",
+        "image": "https://i.pinimg.com/originals/b9/8c/fe/b98cfea87c1aff148ab72bf554a06bb5.jpg"
+    },
+    {
+        "id": "989314243119987633",
+        "name_category": "anime_student",
+        "title": "anime student",
+        "image": "https://i.pinimg.com/originals/01/19/7f/01197f578588fc053afe030d09ff6275.jpg"
+    },
+    {
+        "id": "3659243432537651",
+        "name_category": "anime_student",
+        "title": "anime student",
+        "image": "https://i.pinimg.com/originals/52/42/1b/52421b49911b8dc7dfe082cda98ca888.jpg"
+    },
+    {
+        "id": "1041316745069415146",
+        "name_category": "anime_student",
+        "title": "anime student",
+        "image": "https://i.pinimg.com/originals/71/45/6b/71456b55175ca7d8988941fa4ab83e64.jpg"
+    },
+    {
+        "id": "918382548991265157",
+        "name_category": "anime_student",
+        "title": "anime student",
+        "image": "https://i.pinimg.com/originals/fd/08/16/fd08162cbfac638fcd1759271f8a44a4.jpg"
+    },
+    {
+        "id": "744360644633698333",
+        "name_category": "anime_student",
+        "title": "anime student",
+        "image": "https://i.pinimg.com/originals/e8/ab/c5/e8abc58e62d2676db60117e01c81d69c.jpg"
+    },
+    {
+        "id": "3659243435174790",
+        "name_category": "anime_student",
+        "title": "anime student",
+        "image": "https://i.pinimg.com/originals/61/6c/0f/616c0f2675630dc98b42183408c5887b.jpg"
+    },
+    {
+        "id": "163466661466743035",
+        "name_category": "anime_student",
+        "title": "anime student",
+        "image": "https://i.pinimg.com/originals/e7/4d/49/e74d49b11e24ca82f0f52953aab0cdf5.jpg"
+    },
+    {
+        "id": "600808406560288175",
+        "name_category": "anime_student",
+        "title": "anime student",
+        "image": "https://i.pinimg.com/originals/f8/ff/62/f8ff62c65f81a9f4ff05308b3d73c06a.jpg"
+    },
+    {
+        "id": "43347215157188522",
+        "name_category": "anime_student",
+        "title": "anime student",
+        "image": "https://i.pinimg.com/originals/30/47/99/30479995c30ec253e5380ac4d22dd90e.jpg"
+    },
+    {
+        "id": "641481540694609813",
+        "name_category": "anime_student",
+        "title": "anime student",
+        "image": "https://i.pinimg.com/originals/92/23/a4/9223a4cdf9043d1210df08b061fcff30.jpg"
     }
+  
   ]
 }

@@ -435,12 +435,6 @@
         "image": "https://i.pinimg.com/originals/61/6c/0f/616c0f2675630dc98b42183408c5887b.jpg"
     },
     {
-        "id": "163466661466743035",
-        "name_category": "anime_student",
-        "title": "anime student",
-        "image": "https://i.pinimg.com/originals/e7/4d/49/e74d49b11e24ca82f0f52953aab0cdf5.jpg"
-    },
-    {
         "id": "600808406560288175",
         "name_category": "anime_student",
         "title": "anime student",
@@ -451,13 +445,8 @@
         "name_category": "anime_student",
         "title": "anime student",
         "image": "https://i.pinimg.com/originals/30/47/99/30479995c30ec253e5380ac4d22dd90e.jpg"
-    },
-    {
-        "id": "641481540694609813",
-        "name_category": "anime_student",
-        "title": "anime student",
-        "image": "https://i.pinimg.com/originals/92/23/a4/9223a4cdf9043d1210df08b061fcff30.jpg"
     }
+  
   
   ]
 }

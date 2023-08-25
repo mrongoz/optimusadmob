@@ -46,7 +46,7 @@
       "id": 1,
       "name_category": "FOREX",
       "title": "What is Forex?",
-      "image": "file:///android_asset/image/guide1.jpg",
+      "image": "file:///android_asset/image/1.jpg",
       "description": "Before your Start Trading Forex You Must Know What is Forex ",
       "link": "https://forextradingsucsess.blogspot.com/2022/02/whats-is-forex.html"
     },
@@ -54,7 +54,7 @@
       "id": 2,
       "name_category": "FOREX",
       "title": "How To Read Candlestick Chart in Forex",
-      "image": "file:///android_asset/image/guide2.jpg",
+      "image": "file:///android_asset/image/2.png",
       "description": "Learn How To Read Candlestick Chart in Forex",
       "link": "https://forextradingsucsess.blogspot.com/2022/02/how-to-read-candlestick-charts.html"
     },
@@ -62,7 +62,7 @@
       "id": 3,
       "name_category": "FOREX",
       "title": "24 Different Candlestick Patterns to Learn for Intraday Trading",
-      "image": "https://aliendro.id/uploads/blog/202105/img_608ff8501e0194-32209729-64468304.jpg",
+      "image": "file:///android_asset/image/3.png",
       "description": "Learn 24 Different Candlestick Patterns to Learn for Intraday Trading ",
       "link": "https://forextradingsucsess.blogspot.com/2022/02/24-different-candlestick-patterns-to.html"
     },
@@ -70,49 +70,56 @@
       "id": 4,
       "name_category": "FOREX",
       "title": "Best Automated Trading Strategies For Forex",
-      "image": "Learn About Best Automated Trading Strategies For Forex",
+      "image": "file:///android_asset/image/4.jpg",
+      "description": "Learn About Best Automated Trading Strategies For Forex",
       "link": "https://forextradingsucsess.blogspot.com/2022/02/best-automated-trading-strategies-for.html"
     },
     {
       "id": 5,
       "name_category": "FOREX",
       "title": "Learn How to Start Trading in Mobile App or PC",
-      "image": "IF Your Ready Now Time To Learn Start Trading in Mobile App or PC",
+      "image": "file:///android_asset/image/5.png",
+      "description": "IF Your Ready Now Time To Learn Start Trading in Mobile App or PC",
       "link": "https://forextradingsucsess.blogspot.com/2022/02/start-trading.html"
     },
     {
       "id": 6,
       "name_category": "FOREX",
       "title": "Automated Trading in ThinkOrSwim",
-      "image": "Learn How Automated Trading in ThinkOrSwim",
+      "image": "file:///android_asset/image/6.pngg",
+      "description": "Learn How Automated Trading in ThinkOrSwim",
       "link": "https://forextradingsucsess.blogspot.com/2022/02/how-to-automated-trading-in-thinkorswim.html"
     },
     {
       "id": 7,
       "name_category": "FOREX",
       "title": "8 Trigger Scenarios That We Will Build",
-      "image": "Learn 8 Trigger Scenarios That We Will Build",
+      "image": "file:///android_asset/image/7.png",
+      "description": "Learn 8 Trigger Scenarios That We Will Build",
       "link": "https://forextradingsucsess.blogspot.com/2022/02/8-trigger-scenarios-that-we-will-build.html"
     },
     {
       "id": 8,
       "name_category": "FOREX",
       "title": "Explanation and full Tutorial 8 Trigger Scenarios Automated Triggers",
-      "image": "Learn About Explanation and full Tutorial 8 Trigger Scenarios Automated Triggers",
+      "image": "file:///android_asset/image/8.png",
+      "description": "Learn About Explanation and full Tutorial 8 Trigger Scenarios Automated Triggers",
       "link": "https://forextradingsucsess.blogspot.com/2022/02/explanation-and-full-tutorial-8-trigger.html"
     },
     {
       "id": 9,
       "name_category": "FOREX",
       "title": "Best Automated Trading Platform 2023",
-      "image": "Best Automated Trading Platform 2023",
+      "image": "file:///android_asset/image/9.png",
+      "description": "Best Automated Trading Platform 2023",
       "link": "https://forextradingsucsess.blogspot.com/2022/02/best-automated-trading-platform-2022.html"
     },
     {
       "id": 10,
       "name_category": "FOREX",
       "title": "Best Forex Brokers for 2023",
-      "image": "Best Forex Brokers for 2023",
+      "image": "file:///android_asset/image/10.pngg",
+      "description": "Best Forex Brokers for 2023",
       "link": "https://forextradingsucsess.blogspot.com/2022/02/best-forex-brokers-for-2022.html"
     }
 

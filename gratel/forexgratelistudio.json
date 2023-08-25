@@ -1,0 +1,120 @@
+{
+  "Ads": [
+    {
+      "select_main_ads": "ADMOB",
+      "select_backup_ads":"",
+      "main_ads_banner": "ca-app-pub-3940256099942544/6300978111",
+      "main_ads_intertitial":"ca-app-pub-3940256099942544/1033173712",
+      "main_ads_natives":"ca-app-pub-3940256099942544/2247696110",
+      "backup_ads_natives":"",
+      "backup_ads_banner":"db4d5e8718b97d78",
+      "backup_ads_intertitial":"518cd97722c60b52",
+      "open_ads_admob":"ca-app-pub-3940256099942544/3419835294",
+      "open_ads_alien":"",
+      "open_ads_max":"",
+      "open_ads_wortise":"",
+      "interval_intertitial": 5,
+      "initialize_sdk":"107355779",
+      "initialize_sdk_backup_ads":"",
+      "high_paying_keyword_1": "",
+      "high_paying_keyword_2": "",
+      "high_paying_keyword_3": "",
+      "high_paying_keyword_4": "",
+      "high_paying_keyword_5": "",
+      "status_app": "0",
+      "link_redirect": "https://"
+    }
+  ],
+   "More": [
+    {
+      "id": 1,
+      "title": "FOREX",
+      "image": "https://play-lh.googleusercontent.com/-hbyzqqYI7QzD_m0QwQrawyqaydnWMgR0Lht24oSSBYjj_YkVmImcId_KFunuWQuWAE=s180-rw",
+      "link": "https://play.google.com/store/apps/details?id=com.aliendroid.squidiqgame"
+    }
+    
+  ],
+  "Categories": [
+    {
+      "id": 1,
+      "name_category": "FOREX",
+      "image": "file:///android_asset/image/image1.png"
+    }
+  ],
+  "Data": [
+    {
+      "id": 1,
+      "name_category": "FOREX",
+      "title": "What is Forex?",
+      "image": "file:///android_asset/image/guide1.jpg",
+      "description": "Before your Start Trading Forex You Must Know What is Forex ",
+      "link": "https://forextradingsucsess.blogspot.com/2022/02/whats-is-forex.html"
+    },
+    {
+      "id": 2,
+      "name_category": "FOREX",
+      "title": "How To Read Candlestick Chart in Forex",
+      "image": "file:///android_asset/image/guide2.jpg",
+      "description": "Learn How To Read Candlestick Chart in Forex",
+      "link": "https://forextradingsucsess.blogspot.com/2022/02/how-to-read-candlestick-charts.html"
+    },
+    {
+      "id": 3,
+      "name_category": "FOREX",
+      "title": "24 Different Candlestick Patterns to Learn for Intraday Trading",
+      "image": "https://aliendro.id/uploads/blog/202105/img_608ff8501e0194-32209729-64468304.jpg",
+      "description": "Learn 24 Different Candlestick Patterns to Learn for Intraday Trading ",
+      "link": "https://forextradingsucsess.blogspot.com/2022/02/24-different-candlestick-patterns-to.html"
+    },
+    {
+      "id": 4,
+      "name_category": "FOREX",
+      "title": "Best Automated Trading Strategies For Forex",
+      "image": "Learn About Best Automated Trading Strategies For Forex",
+      "link": "https://forextradingsucsess.blogspot.com/2022/02/best-automated-trading-strategies-for.html"
+    },
+    {
+      "id": 5,
+      "name_category": "FOREX",
+      "title": "Learn How to Start Trading in Mobile App or PC",
+      "image": "IF Your Ready Now Time To Learn Start Trading in Mobile App or PC",
+      "link": "https://forextradingsucsess.blogspot.com/2022/02/start-trading.html"
+    },
+    {
+      "id": 6,
+      "name_category": "FOREX",
+      "title": "Automated Trading in ThinkOrSwim",
+      "image": "Learn How Automated Trading in ThinkOrSwim",
+      "link": "https://forextradingsucsess.blogspot.com/2022/02/how-to-automated-trading-in-thinkorswim.html"
+    },
+    {
+      "id": 7,
+      "name_category": "FOREX",
+      "title": "8 Trigger Scenarios That We Will Build",
+      "image": "Learn 8 Trigger Scenarios That We Will Build",
+      "link": "https://forextradingsucsess.blogspot.com/2022/02/8-trigger-scenarios-that-we-will-build.html"
+    },
+    {
+      "id": 8,
+      "name_category": "FOREX",
+      "title": "Explanation and full Tutorial 8 Trigger Scenarios Automated Triggers",
+      "image": "Learn About Explanation and full Tutorial 8 Trigger Scenarios Automated Triggers",
+      "link": "https://forextradingsucsess.blogspot.com/2022/02/explanation-and-full-tutorial-8-trigger.html"
+    },
+    {
+      "id": 9,
+      "name_category": "FOREX",
+      "title": "Best Automated Trading Platform 2023",
+      "image": "Best Automated Trading Platform 2023",
+      "link": "https://forextradingsucsess.blogspot.com/2022/02/best-automated-trading-platform-2022.html"
+    },
+    {
+      "id": 10,
+      "name_category": "FOREX",
+      "title": "Best Forex Brokers for 2023",
+      "image": "Best Forex Brokers for 2023",
+      "link": "https://forextradingsucsess.blogspot.com/2022/02/best-forex-brokers-for-2022.html"
+    }
+
+  ]
+}

@@ -5,7 +5,6 @@ services:
     image: traefik # The official Traefik docker image
     network_mode: bridge
     command: >
-      # Enables the web UI and tells Traefik to listen to docker
       --api \
       --docker --docker.watch --docker.domain=docker.localhost \
       --ping --ping.entryPoint=http \
@@ -96,5 +95,5 @@ volumes:
 
 networks:
   web:
-    external:
       name: traefik_webgateway
+      external: true

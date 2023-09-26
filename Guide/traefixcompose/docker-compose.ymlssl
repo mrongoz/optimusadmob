@@ -1,1 +1,48 @@
+version: '3.6'
 
+services:
+  nginx:
+    image: nginx:latest
+    restart: always
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+      - ./certs:/etc/nginx/certs
+    depends_on:
+      - hasura
+
+  postgres:
+    image: postgres:15
+    restart: always
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_PASSWORD: untumukui
+      NODE_ENV: production
+
+  hasura:
+    image: hasura/graphql-engine:v2.33.0
+    restart: always
+    ports:
+      - "8081:8080"
+    environment:
+      HASURA_GRAPHQL_AUTH_HOOK: https://moneysmatrexpense.vercel.app
+      HASURA_GRAPHQL_AUTH_HOOK_MODE: GET
+      HASURA_GRAPHQL_CORS_DOMAIN: "*"
+      HASURA_GRAPHQL_DATABASE_URL: postgres://postgres:untumukui@postgres:5432/postgres
+      HASURA_GRAPHQL_ENABLE_CONSOLE: 'true'
+      HASURA_GRAPHQL_ENABLED_LOG_TYPES: startup, http-log, webhook-log, websocket-log, query-log
+      #HASURA_GRAPHQL_ACCESS_KEY: 'your_hasura_access_key'
+      HASURA_GRAPHQL_ADMIN_SECRET: myadminsecretkey
+    depends_on:
+      - postgres
+
+volumes:
+  db_data:
+
+networks:
+  web:
+    external: true
+    name: traefik_webgateway

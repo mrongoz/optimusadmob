@@ -1,10 +1,11 @@
 version: '3.6'
 
 services:
-  traefik:
-    image: traefik
+  traefix:
+    image: traefik # The official Traefik docker image
     network_mode: bridge
     command: >
+      # Enables the web UI and tells Traefik to listen to docker
       --api \
       --docker --docker.watch --docker.domain=docker.localhost \
       --ping --ping.entryPoint=http \
@@ -27,26 +28,26 @@ services:
       LETS_ENCRYPT_ACME_SERVER: 'https://acme-staging-v02.api.letsencrypt.org/directory'
       LETS_ENCRYPT_EMAIL: andrio1@outlook.co.id
     ports:
-      - '80:80'
-      - '443:443'
-      - '8080:8080'
+      - '80:80' # The HTTP port
+      - '443:443' # HTTPS Port (TLS)
+      - '8080:8080' # The Web UI (enabled by --api)
     volumes:
       - ~/acme.json:/acme.json
-      - /var/run/docker.sock:/var/run/docker.sock
-
+      - /var/run/docker.sock:/var/run/docker.sock # So that Traefik can listen to the Docker events
   postgres:
     image: postgres:15
     restart: always
     volumes:
       - db_data:/var/lib/postgresql/data
-    environment:
-      POSTGRES_USER: postgres  # Replace with your desired username
-      POSTGRES_PASSWORD: untumukui  # Replace with your desired password
-      POSTGRES_DB: postgres  # Replace with your desired database name
-   labels:
-      - 'traefik.port=5432'
+   environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: untumukui
+      POSTGRES_DB: postgres
+    restart: always
+    labels:
       - 'traefik.enable=true'
-      - 'traefik.frontend.rule=Host:auth.smartmoney.bisnisnetz.com}'
+      - 'traefik.port=5432'
+      - 'traefik.frontend.rule=Host:auth.${DOMAIN}'
       - 'traefik.frontend.entryPoints=https'
       # Security Headers (HSTS)
       - 'traefik.http.middlewares.testHeader.headers.framedeny=true'
@@ -58,37 +59,46 @@ services:
       - 'traefik.http.middlewares.testheader.headers.addvaryheader=true'
       # Compress (gzip) for Performance
       - 'traefik.http.middlewares.test-compress.compress=true'
-
+    depends_on:
+      - 'postgres'
+    environment:
+      NODE_ENV: production
+      DATABASE_URL: postgres://postgres:@postgres:5432/postgres
+      AUTH_PRIVATE_KEY: '${PRIVATE_KEY}'
+      AUTH_PUBLIC_KEY: '${PUBLIC_KEY}'
   graphql-engine:
     image: hasura/graphql-engine:v2.33.0
     ports:
       - '8081:8080'
     labels:
-      - 'traefik.frontend.rule=Host:graphql.smartmoney.bisnisnetz.com'
+      - 'traefik.frontend.rule=Host:graphql.${DOMAIN}'
       - 'traefik.port=8080'
+      # Security Headers (HSTS)
       - 'traefik.http.middlewares.testHeader.headers.framedeny=true'
       - 'traefik.http.middlewares.testHeader.headers.sslredirect=true'
+      # CORS
       - 'traefik.http.middlewares.testheader.headers.accesscontrolallowmethods=GET,OPTIONS,PUT'
       - 'traefik.http.middlewares.testheader.headers.accesscontrolalloworigin=origin-list-or-null'
       - 'traefik.http.middlewares.testheader.headers.accesscontrolmaxage=100'
       - 'traefik.http.middlewares.testheader.headers.addvaryheader=true'
+      # Compress (gzip) for Performance
       - 'traefik.http.middlewares.test-compress.compress=true'
     depends_on:
       - 'postgres'
     restart: always
     environment:
-      HASURA_GRAPHQL_AUTH_HOOK: https://moneysmatrexpense.vercel.app
-      HASURA_GRAPHQL_AUTH_HOOK_MODE: GET
-      HASURA_GRAPHQL_CORS_DOMAIN: "*"
-      HASURA_GRAPHQL_DATABASE_URL: postgres://postgres:untumukui@smartmoney.biznisnetz.com:5432/postgres
-      HASURA_GRAPHQL_ENABLE_CONSOLE: 'true'
+      HASURA_GRAPHQL_DATABASE_URL: postgres://postgres:untumukui@postgres:5432/postgres
+      HASURA_GRAPHQL_ENABLE_CONSOLE: 'true' # set to "false" to disable console
       HASURA_GRAPHQL_ENABLED_LOG_TYPES: startup, http-log, webhook-log, websocket-log, query-log
-    #HASURA_GRAPHQL_ACCESS_KEY: 'your_hasura_access_key'  # Replace with your Hasura access key
+      #HASURA_GRAPHQL_JWT_SECRET: '{"type":"RS256", "key":"${PUBLIC_KEY}"}'
+      HASURA_GRAPHQL_ACCESS_KEY: '${HASURA_ACCESS_KEY}'
+      ## uncomment next line to set an admin secret
+      # HASURA_GRAPHQL_ADMIN_SECRET: myadminsecretkey
 
 volumes:
   db_data:
 
 networks:
   web:
-    external: true
     name: traefik_webgateway
+    external: true

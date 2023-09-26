@@ -18,11 +18,9 @@ services:
       - ./letsencrypt:/letsencrypt
     networks:
       - default
-    restart: always
 
   postgres:
     image: postgres:15
-    restart: always
     volumes:
       - db_data:/var/lib/postgresql/data
     environment:
@@ -35,20 +33,18 @@ services:
       - "traefik.http.routers.postgres.tls.certresolver=myresolver"
     ports:
       - "5432:5432"
-    restart: always
 
   graphql-engine:
     image: hasura/graphql-engine:v2.33.0
     ports:
       - "8080:8080"
-    restart: always
     environment:
       HASURA_GRAPHQL_AUTH_HOOK: https://moneysmatrexpense.vercel.app
       HASURA_GRAPHQL_AUTH_HOOK_MODE: GET
       HASURA_GRAPHQL_CORS_DOMAIN: "*"
       HASURA_GRAPHQL_ENABLE_CONSOLE: "true"
       HASURA_GRAPHQL_METADATA_DATABASE_URL: postgres://postgres:postgrespassword@postgres:5432/postgres
-      PG_DATABASE_URL: postgres://postgres:postgrespassword@smartmoney.bisnisnetz.com/postgres?sslmode=require
+      PG_DATABASE_URL: postgres://postgres:postgrespassword@postgres:5432/postgres
       HASURA_GRAPHQL_DEV_MODE: "true"
       HASURA_GRAPHQL_ENABLED_LOG_TYPES: startup, http-log, webhook-log, websocket-log, query-log
       HASURA_GRAPHQL_CONSOLE_ASSETS_DIR: /srv/console-assets
@@ -60,7 +56,6 @@ services:
       - "traefik.http.routers.hasura.tls.certresolver=myresolver"
     depends_on:
       - postgres
-    restart: always
 
 networks:
   default:

@@ -39,13 +39,13 @@ services:
     restart: always
     volumes:
       - db_data:/var/lib/postgresql/data
-      ports:
-      - '5432:5432'
     environment:
       POSTGRES_USER: postgres  # Replace with your desired username
       POSTGRES_PASSWORD: untumukui  # Replace with your desired password
       POSTGRES_DB: postgres  # Replace with your desired database name
    labels:
+      - 'traefik.port=5432'
+      - 'traefik.enable=true'
       - 'traefik.frontend.rule=Host:auth.smartmoney.bisnisnetz.com}'
       - 'traefik.frontend.entryPoints=https'
       # Security Headers (HSTS)

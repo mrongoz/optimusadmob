@@ -1,0 +1,6 @@
+money.bisnisnetz.com {
+    reverse_proxy graphql-engine:8080
+    tls {
+        on_demand
+    }
+}

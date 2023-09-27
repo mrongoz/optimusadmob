@@ -8,9 +8,9 @@ services:
       - db_data:/var/lib/postgresql/data
       - ./ssl:/etc/postgresql/ssl
     environment:
-      POSTGRES_PASSWORD: postgrespassword
-      POSTGRES_DB: your_db_name # Replace with your database name
-      POSTGRES_USER: your_db_user # Replace with your database user
+      POSTGRES_PASSWORD: postgrespassword2222
+      POSTGRES_DB: dbMonney23 # Replace with your database name
+      POSTGRES_USER: Untumu2 # Replace with your database user
     command: ["postgres", "-c", "ssl=on", "-c", "ssl_cert_file=/etc/postgresql/ssl/server.crt", "-c", "ssl_key_file=/etc/postgresql/ssl/server.key"]
 
   graphql-engine:
@@ -19,7 +19,7 @@ services:
       - "postgres"
     restart: always
     environment:
-      HASURA_GRAPHQL_METADATA_DATABASE_URL: postgres://your_db_user:your_db_password@postgres:5432/your_db_name
+      HASURA_GRAPHQL_METADATA_DATABASE_URL: postgres://Untumu2:postgrespassword2222@postgres:5432/dbMonney23
       HASURA_GRAPHQL_ENABLE_CONSOLE: "true"
       HASURA_GRAPHQL_DEV_MODE: "true"
       HASURA_GRAPHQL_UNAUTHORIZED_ROLE: anonymous

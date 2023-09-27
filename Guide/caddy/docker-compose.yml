@@ -6,11 +6,12 @@ services:
     restart: always
     volumes:
       - db_data:/var/lib/postgresql/data
+      - ./ssl:/etc/postgresql/ssl
     environment:
       POSTGRES_PASSWORD: postgrespassword
       POSTGRES_DB: your_db_name # Replace with your database name
       POSTGRES_USER: your_db_user # Replace with your database user
-    command: ["postgres", "-c", "ssl=on", "-c", "ssl_cert_file=/etc/postgresql/certs/server.crt", "-c", "ssl_key_file=/etc/postgresql/certs/server.key"]
+    command: ["postgres", "-c", "ssl=on", "-c", "ssl_cert_file=/etc/postgresql/ssl/server.crt", "-c", "ssl_key_file=/etc/postgresql/ssl/server.key"]
 
   graphql-engine:
     image: hasura/graphql-engine:v2.33.0
@@ -45,14 +46,15 @@ services:
     volumes:
       - ./Caddyfile:/etc/caddy/Caddyfile
       - caddy_certs:/root/.caddy
-      - ./certs:/etc/caddy/certs # Add this line for SSL certificates
-
-networks:
-  default:
-    external:
-      name: bridge
+      - ./ssl:/etc/caddy/ssl
+    networks:
+      - default
 
 volumes:
   db_data:
   caddy_certs:
 
+networks:
+  default:
+    external:
+      name: bridge

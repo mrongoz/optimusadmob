@@ -6,7 +6,8 @@ services:
     restart: always
     volumes:
       - ./postgres/data:/var/lib/postgresql/data
-      - ./ssl:/var/lib/postgresql/certs
+      - ./ssl:/var/lib/postgresql/certs/
+      - ./postgres-initdb:/docker-entrypoint-initdb.d/
     ports:
       - '5432:5432'
     environment:

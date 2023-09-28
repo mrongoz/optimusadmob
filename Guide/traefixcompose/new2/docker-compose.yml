@@ -5,59 +5,49 @@ services:
     image: postgres:15
     restart: always
     volumes:
-      - ./postgres/data:/var/lib/postgresql/data
-      - ./certs/out:/var/lib/postgresql/certs
+      - db_data:/var/lib/postgresql/data
+      - ./certs/out/postgresdb.key:/var/lib/postgresql/moneyexpense.my.id.key
+      - ./certs/out/postgresdb.crt:/var/lib/postgresql/moneyexpense.my.id.crt
+      - ./certs/out/myCA.crt:/var/lib/postgresql/myCA.crt
+      - ./certs/out/myCA.crl:/var/lib/postgresql/myCA.crl
+      - ./ssl-conf.sh:/docker-entrypoint-initdb.d/ssl-conf.sh
     environment:
-      POSTGRES_PASSWORD: postgrespassword222
-      POSTGRES_DB: mydatabase
-      POSTGRES_HOST_SSL_CERT: /var/lib/postgresql/certs/moneyexpense.my.id.crt
-      POSTGRES_HOST_SSL_KEY: /var/lib/postgresql/certs/moneyexpense.my.id.key
-      POSTGRES_HOST_SSL_CA: /var/lib/postgresql/certs/myCA.crt
-      POSTGRES_HOST_SSL_CRL: /var/lib/postgresql/certs/myCA.crl
-      POSTGRES_HOST_SSL_PREFER_SERVER_CIPHERS: on
-      POSTGRES_HOST_SSL_MIN_PROTOCOL_VERSION: TLSv1.2
-    command:
-      - "postgres"
-      - "-c"
-      - "ssl=on"
-      - "-c"
-      - "ssl_cert_file=/var/lib/postgresql/certs/moneyexpense.my.id.crt"
-      - "-c"
-      - "ssl_key_file=/var/lib/postgresql/certs/moneyexpense.my.id.key"
-      - "-c"
-      - "ssl_ca_file=/var/lib/postgresql/certs/myCA.crt"
-      - "-c"
-      - "ssl_crl_file=/var/lib/postgresql/certs/myCA.crl"
-      - "-c"
-      - "ssl_prefer_server_ciphers=on"
-      - "-c"
-      - "ssl_min_protocol_version=TLSv1.2"
-  hasura:
+      POSTGRES_PASSWORD: postgrespassword
+      POSTGRES_SSL_KEY_FILE: /var/lib/postgresql/moneyexpense.my.id.key
+      POSTGRES_SSL_CERT_FILE: /var/lib/postgresql/moneyexpense.my.id.crt
+      POSTGRES_SSL_CA_FILE: /var/lib/postgresql/myCA.crt
+      POSTGRES_SSL_CRL_FILE: /var/lib/postgresql/myCA.crl
+
+  graphql-engine:
     image: hasura/graphql-engine:v2.33.0
-    depends_on:
-      - postgres
+    ports:
+      - "8080:8080"
     restart: always
     environment:
-      HASURA_GRAPHQL_DATABASE_URL: postgres://postgres:postgrespassword222@postgres:5432/mydatabase
+      HASURA_GRAPHQL_METADATA_DATABASE_URL: postgres://postgres:postgrespassword@moneyexpense.my.id:5432/postgres
+      PG_DATABASE_URL: postgres://postgres:postgrespassword@moneyexpense.my.id:5432/postgres
       HASURA_GRAPHQL_ENABLE_CONSOLE: "true"
       HASURA_GRAPHQL_DEV_MODE: "true"
-      HASURA_GRAPHQL_ADMIN_SECRET: untumukui2323@
-      HASURA_GRAPHQL_AUTH_HOOK: https://moneysmatrexpense.vercel.app
-      HASURA_GRAPHQL_AUTH_HOOK_MODE: GET
-      HASURA_GRAPHQL_CORS_DOMAIN: "*"
-    command:
-      - graphql-engine
-      - serve
-    cap_add:
-      - IPC_LOCK
-    tmpfs:
-      - /tmp
+      HASURA_GRAPHQL_ENABLED_LOG_TYPES: startup, http-log, webhook-log, websocket-log, query-log
+      HASURA_GRAPHQL_METADATA_DEFAULTS: '{"backend_configs":{"dataconnector":{"athena":{"uri":"http://data-connector-agent:8081/api/v1/athena"},"mariadb":{"uri":"http://data-connector-agent:8081/api/v1/mariadb"},"mysql8":{"uri":"http://data-connector-agent:8081/api/v1/mysql"},"oracle":{"uri":"http://data-connector-agent:8081/api/v1/oracle"},"snowflake":{"uri":"http://data-connector-agent:8081/api/v1/snowflake"}}}}'
+    depends_on:
+      data-connector-agent:
+        condition: service_healthy
+
+  data-connector-agent:
+    image: hasura/graphql-data-connector:v2.33.0
+    restart: always
+    ports:
+      - 8081:8081
+    environment:
+      QUARKUS_LOG_LEVEL: ERROR
+      QUARKUS_OPENTELEMETRY_ENABLED: "false"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8081/api/v1/athena/health"]
+      interval: 5s
+      timeout: 10s
+      retries: 5
+      start_period: 5s
 
 volumes:
-  postgres_data:
-  letsencrypt:
-
-networks:
-  default:
-      name: traefik_default
-      external: true
+  db_data:

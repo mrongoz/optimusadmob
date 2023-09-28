@@ -6,12 +6,15 @@ services:
     restart: always
     volumes:
       - db_data:/var/lib/postgresql/data
-      - ./ssl:/etc/postgresql/ssl
+      - ./ssla:/etc/postgresql/ssl
+    ports:
+      - '5432:5432'
     environment:
       POSTGRES_PASSWORD: postgrespassword222
-      POSTGRES_DB: dbMoney22
-      POSTGRES_USER: untumukui2
-    command: ["postgres", "-c", "ssl=on", "-c", "ssl_cert_file=/etc/postgresql/ssl/server.crt", "-c", "ssl_key_file=/etc/postgresql/ssl/server.key"]
+    command: >
+      -c ssl=on
+      -c ssl_cert_file=/etc/postgresql/ssl/server.crt
+      -c ssl_key_file=/etc/postgresql/ssl/server.key
 
   graphql-engine:
     image: hasura/graphql-engine:v2.33.0
@@ -19,10 +22,10 @@ services:
       - postgres
     restart: always
     environment:
-      HASURA_GRAPHQL_METADATA_DATABASE_URL: postgres://untumukui2:postgrespassword222@postgres:5432/dbMoney22
+      HASURA_GRAPHQL_METADATA_DATABASE_URL: postgres://postgres:postgrespassword222@postgres:5432/postgres
+      PG_DATABASE_URL: postgres://postgres:postgrespassword222@postgres:5432/postgres
       HASURA_GRAPHQL_ENABLE_CONSOLE: "true"
       HASURA_GRAPHQL_DEV_MODE: "true"
-      HASURA_GRAPHQL_UNAUTHORIZED_ROLE: anonymous
       HASURA_GRAPHQL_ADMIN_SECRET: untumukui2323@
       HASURA_GRAPHQL_AUTH_HOOK: https://moneysmatrexpense.vercel.app
       HASURA_GRAPHQL_AUTH_HOOK_MODE: GET
@@ -46,7 +49,7 @@ services:
     volumes:
       - ./Caddyfile:/etc/caddy/Caddyfile
       - caddy_certs:/root/.caddy
-      - ./ssl:/etc/caddy/ssl
+      - ./ssla:/etc/caddy/ssl
     networks:
       - custom_network
 

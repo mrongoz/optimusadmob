@@ -12,13 +12,26 @@ services:
       POSTGRES_DB: mydatabase
       POSTGRES_HOST_SSL_CERT: /var/lib/postgresql/certs/moneyexpense.my.id.crt
       POSTGRES_HOST_SSL_KEY: /var/lib/postgresql/certs/moneyexpense.my.id.key
+      POSTGRES_HOST_SSL_CA: /var/lib/postgresql/certs/myCA.crt
+      POSTGRES_HOST_SSL_CRL: /var/lib/postgresql/certs/myCA.crl
+      POSTGRES_HOST_SSL_PREFER_SERVER_CIPHERS: on
+      POSTGRES_HOST_SSL_MIN_PROTOCOL_VERSION: TLSv1.2
     command:
-      - bash
-      - -c
-      - |
-        chmod 600 /var/lib/postgresql/certs/moneyexpense.my.id.key
-        exec postgres -c ssl=on -c ssl_cert_file=/var/lib/postgresql/certs/moneyexpense.my.id.crt -c ssl_key_file=/var/lib/postgresql/certs/moneyexpense.my.id.key -c ssl_ca_file=/var/lib/postgresql/certs/myCA.crt -c ssl_crl_file=/var/lib/postgresql/certs/myCA.crl -c ssl_prefer_server_ciphers=on -c ssl_min_protocol_version=TLSv1.2
-
+      - "postgres"
+      - "-c"
+      - "ssl=on"
+      - "-c"
+      - "ssl_cert_file=/var/lib/postgresql/certs/moneyexpense.my.id.crt"
+      - "-c"
+      - "ssl_key_file=/var/lib/postgresql/certs/moneyexpense.my.id.key"
+      - "-c"
+      - "ssl_ca_file=/var/lib/postgresql/certs/myCA.crt"
+      - "-c"
+      - "ssl_crl_file=/var/lib/postgresql/certs/myCA.crl"
+      - "-c"
+      - "ssl_prefer_server_ciphers=on"
+      - "-c"
+      - "ssl_min_protocol_version=TLSv1.2"
   hasura:
     image: hasura/graphql-engine:v2.33.0
     depends_on:

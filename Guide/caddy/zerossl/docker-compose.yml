@@ -1,0 +1,53 @@
+version: '3.6'
+
+services:
+  postgres:
+    image: postgres:15
+    restart: always
+    volumes:
+      - ./postgres/data:/var/lib/postgresql/data
+      - ./ssl:/var/lib/postgresql/certs
+    ports:
+      - '5432:5432'
+    environment:
+      POSTGRES_PASSWORD: postgrespassword222
+
+  graphql-engine:
+    image: hasura/graphql-engine:v2.33.0
+    depends_on:
+      - postgres
+    restart: always
+    environment:
+      HASURA_GRAPHQL_METADATA_DATABASE_URL: postgres://postgres:postgrespassword222@postgres:5432/postgres
+      HASURA_GRAPHQL_ENABLE_CONSOLE: "true"
+      HASURA_GRAPHQL_DEV_MODE: "true"
+      HASURA_GRAPHQL_ADMIN_SECRET: untumukui2323@
+      HASURA_GRAPHQL_AUTH_HOOK: https://moneysmatrexpense.vercel.app
+      HASURA_GRAPHQL_AUTH_HOOK_MODE: GET
+      HASURA_GRAPHQL_CORS_DOMAIN: "*"
+    command:
+      - graphql-engine
+      - serve
+    cap_add:
+      - IPC_LOCK
+    tmpfs:
+      - /tmp
+
+  caddy:
+    image: caddy/caddy
+    restart: always
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile
+      - ./ssl:/etc/caddy/ssl
+    depends_on:
+      - postgres
+
+volumes:
+  db_data:
+
+networks:
+  custom_network:
+    external: true

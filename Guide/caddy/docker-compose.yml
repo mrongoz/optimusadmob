@@ -6,15 +6,16 @@ services:
     restart: always
     volumes:
       - db_data:/var/lib/postgresql/data
-      - ./ssla:/etc/postgresql/ssl
+      - ./ssla:/var/lib/postgresql/certs
+      - ./postgres-initdb:/docker-entrypoint-initdb.d/
     ports:
       - '5432:5432'
     environment:
       POSTGRES_PASSWORD: postgrespassword222
-    command: >
-      -c ssl=on
-      -c ssl_cert_file=/etc/postgresql/ssl/server.crt
-      -c ssl_key_file=/etc/postgresql/ssl/server.key
+    #command: >
+    #-c ssl=on
+    #-c ssl_cert_file=/etc/postgresql/ssl/server.crt
+    #-c ssl_key_file=/etc/postgresql/ssl/server.key
 
   graphql-engine:
     image: hasura/graphql-engine:v2.33.0

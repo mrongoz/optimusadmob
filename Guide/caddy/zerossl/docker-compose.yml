@@ -7,7 +7,10 @@ services:
     volumes:
       - ./postgres/data:/var/lib/postgresql/data
       - ./ssl:/var/lib/postgresql/certs/
-      - ./postgres-initdb:/docker-entrypoint-initdb.d/
+    command: >
+     -c ssl=on 
+     -c ssl_cert_file=/var/lib/postgresql/certs/cert.crt
+     -c ssl_key_file=/var/lib/postgresql/certs/private.key
     ports:
       - '5432:5432'
     environment:

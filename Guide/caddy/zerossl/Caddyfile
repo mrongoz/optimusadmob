@@ -1,14 +1,6 @@
-djancuk.bisnisnetz.com {
-    tls /etc/caddy/ssl/private.key /etc/caddy/ssl/certificate.crt
-    reverse_proxy postgres:5432
+moneyexpense.my.id {
+    tls /etc/caddy/ssl/private.key /etc/caddy/ssl/cert.crt
     reverse_proxy graphql-engine:8080
 
-    # Add this line for Hasura console access
-    rewrite /console/* /console/index.html
-
-    # Add this block to handle Hasura console requests
-    handle /console/* {
-        root * /etc/caddy/ssl/
-        file_server
-    }
+    
 }

@@ -1,21 +1,33 @@
 version: '3.6'
 
 services:
+  caddy:
+    image: caddy/caddy
+    restart: always
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile
+      - caddy_data:/data
+      - ./certbot/conf:/etc/letsencrypt
+
   postgres:
     image: postgres:15
     restart: always
     volumes:
       - ./postgres/data:/var/lib/postgresql/data
-      - ./ssl:/var/lib/postgresql/certs/
+      - /etc/letsencrypt/live/postgres.moneyexpense.my.id/:/var/lib/postgresql/certs/
       - ./config/pg_hba.conf:/var/lib/postgresql/data/pg_hba.conf
-    command: >
-     -c ssl=on 
-     -c ssl_cert_file=/var/lib/postgresql/certs/cert.crt
-     -c ssl_key_file=/var/lib/postgresql/certs/private.key
-    ports:
-      - '5432:5432'
     environment:
       POSTGRES_PASSWORD: postgrespassword222
+      POSTGRES_SSL_MODE: verify-full
+      POSTGRES_SSL_CERT: /var/lib/postgresql/certs/fullchain.pem
+      POSTGRES_SSL_KEY: /var/lib/postgresql/certs/privkey.pem
+    command: >
+      -c ssl=on 
+      -c ssl_cert_file=/var/lib/postgresql/certs/fullchain.pem
+      -c ssl_key_file=/var/lib/postgresql/certs/privkey.pem
 
   graphql-engine:
     image: hasura/graphql-engine:v2.33.0
@@ -27,31 +39,12 @@ services:
       HASURA_GRAPHQL_ENABLE_CONSOLE: "true"
       HASURA_GRAPHQL_DEV_MODE: "true"
       HASURA_GRAPHQL_ADMIN_SECRET: untumukui2323@
-      HASURA_GRAPHQL_AUTH_HOOK: https://moneysmatrexpense.vercel.app
+      HASURA_GRAPHQL_AUTH_HOOK: https://moneyexpense.my.id/hasura-webhook
       HASURA_GRAPHQL_AUTH_HOOK_MODE: GET
       HASURA_GRAPHQL_CORS_DOMAIN: "*"
-    command:
-      - graphql-engine
-      - serve
-    cap_add:
-      - IPC_LOCK
-    tmpfs:
-      - /tmp
-
-  caddy:
-    image: caddy/caddy
-    restart: always
-    ports:
-      - "80:80"
-      - "443:443"
-    volumes:
-      - ./Caddyfile:/etc/caddy/Caddyfile
-      - ./ssl:/etc/caddy/ssl
-    depends_on:
-      - postgres
 
 volumes:
-  db_data:
+  caddy_data:
 
 networks:
   custom_network:

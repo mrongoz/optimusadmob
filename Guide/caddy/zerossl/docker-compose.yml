@@ -10,16 +10,8 @@ services:
     volumes:
       - ./Caddyfile:/etc/caddy/Caddyfile
       - caddy_data:/data
-      - /etc/letsencrypt:/etc/letsencrypt
-      
-certbot:
-    image: certbot/certbot
-    volumes:
-      - caddy_data:/data
-      - /etc/letsencrypt:/etc/letsencrypt
-    command: certonly --webroot --webroot-path=/data -d moneyexpense.my.id -d postgres.moneyexpense.my.id
-    depends_on:
-      - caddy
+      - /etc/letsencrypt:/etc/letsencrypt   # Assuming Certbot directory
+      - ./ssl:/etc/caddy/ssl               # Assuming SSL certificates obtained by Certbot
 
   postgres:
     image: postgres:15
@@ -27,7 +19,6 @@ certbot:
     volumes:
       - ./postgres/data:/var/lib/postgresql/data
       - /etc/letsencrypt/live/moneyexpense.my.id/:/var/lib/postgresql/certs/
-      - ./config/pg_hba.conf:/var/lib/postgresql/data/pg_hba.conf
     environment:
       POSTGRES_PASSWORD: postgrespassword222
       POSTGRES_SSL_MODE: verify-full
@@ -44,7 +35,7 @@ certbot:
       - postgres
     restart: always
     environment:
-      HASURA_GRAPHQL_METADATA_DATABASE_URL: postgres://postgres:postgrespassword222@postgres.moneyexpense.my.id:5432/postgres
+      HASURA_GRAPHQL_METADATA_DATABASE_URL: postgres://postgres:postgrespassword222@postgres:5432/postgres
       HASURA_GRAPHQL_ENABLE_CONSOLE: "true"
       HASURA_GRAPHQL_DEV_MODE: "true"
       HASURA_GRAPHQL_ADMIN_SECRET: untumukui2323@

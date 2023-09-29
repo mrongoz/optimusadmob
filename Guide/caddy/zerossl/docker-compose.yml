@@ -11,6 +11,13 @@ services:
       - ./Caddyfile:/etc/caddy/Caddyfile
       - caddy_data:/data
       - ./certbot/conf:/etc/letsencrypt
+      
+certbot:
+  image: certbot/certbot
+  volumes:
+    - caddy_data:/data
+    - ./certbot/conf:/etc/letsencrypt
+  command: certonly --webroot --webroot-path=/data -d moneyexpense.my.id -d postgres.moneyexpense.my.id
 
   postgres:
     image: postgres:15

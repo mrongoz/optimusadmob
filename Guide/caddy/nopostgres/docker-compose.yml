@@ -6,7 +6,13 @@ services:
     restart: always
     environment:
       ## postgres database to store Hasura metadata
-      HASURA_GRAPHQL_METADATA_DATABASE_URL: postgres://postgres:postgrespassword@postgres:5432/postgres
+      HASURA_GRAPHQL_METADATA_DATABASE_URL: postgres://postgres:UntumuKui22@#@forgres.moneyexpense.my.id:5432/postgres?sslmode=require
+      HASURA_GRAPHQL_ENABLE_CONSOLE: "true"
+      HASURA_GRAPHQL_DEV_MODE: "true"
+      HASURA_GRAPHQL_ADMIN_SECRET: untumukui2323@
+      HASURA_GRAPHQL_AUTH_HOOK: https://moneysmatrexpense.vercel.app
+      HASURA_GRAPHQL_AUTH_HOOK_MODE: GET
+      HASURA_GRAPHQL_CORS_DOMAIN: "*"
       ## enable the console served by server
       HASURA_GRAPHQL_ENABLE_CONSOLE: "true" # set "false" to disable console
       ## enable debugging mode. It is recommended to disable this in production
